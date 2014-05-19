@@ -9,53 +9,6 @@ body {
 
 
 
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-}
-
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.navbar-right:hover li{
-  color: #ea503d;
-}
-.navbar{
-  border-color: black;
-}
-.navbar li:hover{
-  background: black;
-}
-.navbar li a{
-  padding: 15px;
-}
-.navbar-inverse .navbar-brand {
-  color: #2537BD;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-  color: black;
-}
-
-.social-media{
-  float: right;
-}
-
-/*end of navbar styling*/
-
 
 /*start of styling second section*/
 .second-section {
@@ -166,25 +119,8 @@ bottom: 55px;
     padding-left: 0;
   }
 
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-    border-radius: none;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left:  0;
-
-  }
   .container-header ul, a{
     color: black;
-  }
-
-
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: none;
-    background: inherit;
   }
 
   /* Bump up size of carousel content */
