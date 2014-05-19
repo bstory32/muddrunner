@@ -70,7 +70,7 @@ body {
 font-size: 50px;
 padding-bottom: 74px;
 
-margin: -40px;
+/* margin: -40px; */
 }
 
 /*end of styling second section*/
@@ -171,20 +171,10 @@ bottom: 55px;
     margin-top: 20px;
     border-radius: none;
   }
-  .navbar-wrapper .container {
-    padding-right: 2px;
-    padding-left: 2px;
-  }
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left:  0;
 
-  }
-  .navbar-right li{
-    /* margin-right: 10px; */
-  }
-  .container{
-    width: 1154px;
   }
   .container-header ul, a{
     color: black;
