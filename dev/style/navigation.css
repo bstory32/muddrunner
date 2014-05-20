@@ -1,7 +1,9 @@
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
-
+.navbar-inverse{
+  background: #FFF;
+}
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
@@ -27,7 +29,7 @@
   border-color: black;
 }
 .navbar li:hover{
-  background: black;
+  background: #FFF;
 }
 .navbar li a{
   padding: 15px;
