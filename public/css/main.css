@@ -15,23 +15,7 @@ body {
 
 
 
-/*start of third section styling */
-.third-section ul{
-  list-style: none;
-  margin-bottom: 50px;
-}
 
-.third-section h2{
-  font-size: 40px;
-}
-
-.list-inline>li {
-display: inline-block;
-padding-left: 25px;
-padding-right: 25px;
-}
-
-/*end of third section styling*/
 
 
 /*start of fourth section styling*/
