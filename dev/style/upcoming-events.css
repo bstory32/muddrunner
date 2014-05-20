@@ -8,6 +8,14 @@
 	display: inline-block;
 }
 
+.event-section h3,p{
+	text-align: left;
+}
+.event-section h3{
+	margin-top: 0;
+	padding: 0;
+}
+
 .event-header {
   text-align: left;
 }
