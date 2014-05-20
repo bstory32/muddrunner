@@ -1,0 +1,17 @@
+/*start of fourth section styling*/
+
+.recent-section{
+  text-align: center;
+}
+
+.recent-section ul li div{
+	display: inline-block;
+}
+
+.recent-section img{
+	float: left;
+}
+.recent-section h2{
+	text-align: left;
+}
+/*end of fourth section styling*/
