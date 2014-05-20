@@ -27,7 +27,7 @@
   border-color: black;
 }
 .navbar li:hover{
-  background: black;
+  background: #FFF;
 }
 .navbar li a{
   padding: 15px;
