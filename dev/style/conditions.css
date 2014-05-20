@@ -11,6 +11,7 @@
 .conditions-section h2{
   font-size: 40px;
   padding-bottom: 15px;
+  text-align: center;
 }
 
 .conditions-section img{
@@ -26,7 +27,9 @@
 	font-weight: 400;
 	margin: 0;
 }
-.conditions-section
+.sponsors-section img{
+	padding: 6px;
+}
 
 
 .list-inline>li {
