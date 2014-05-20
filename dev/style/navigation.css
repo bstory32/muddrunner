@@ -21,6 +21,11 @@
   color: #9d9f39;
   
 }
+/* Drop Down */
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
+  background-color: #9d9f39;
+  color: #FFF;
+}
 @media (min-width: 768px){
   .navbar{
     border-radius: 0;
