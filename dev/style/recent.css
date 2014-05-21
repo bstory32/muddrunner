@@ -4,14 +4,20 @@
   text-align: center;
 }
 
-.recent-section ul li div{
+.recent-section ul li img{
 	display: inline-block;
+	padding: 5px;
+	
 }
 
 .recent-section img{
 	float: left;
+	padding-right: 15px;
 }
 .recent-section h2{
 	text-align: left;
 }
+
+
+
 /*end of fourth section styling*/

@@ -8,11 +8,12 @@
   border-right: 0;
   border-bottom: solid 2px #9d9f39;
 }
-.navbar-default .navbar-nav>li>a{
+.navbar-default .navbar-nav>li>a,
+{
   color: #999;
   font-weight: 900;
 }
-.navbar-default .navbar-nav>li>a:hover{
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
   color: #9d9f39;
 }
 

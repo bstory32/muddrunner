@@ -6,6 +6,7 @@
 .conditions-section ul{
   list-style: none;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .conditions-section h2{
@@ -31,6 +32,14 @@
 	padding: 6px;
 }
 
+.sponsors-section li{
+	width: 32%;
+	display: inline-block;
+}
+
+.sponsors-section li img{
+	width: 100%;
+}
 
 .list-inline>li {
 display: inline-block;
