@@ -2,12 +2,13 @@
 
 .recent-section{
   text-align: center;
+  padding-bottom: 60px;
 }
 
 .recent-section ul li img{
 	display: inline-block;
 	padding: 5px;
-	
+
 }
 
 .recent-section img{
@@ -16,8 +17,20 @@
 }
 .recent-section h2{
 	text-align: left;
+	text-shadow: -1px 2px 2px #9d9f39;
+	letter-spacing: 1px;
 }
 
+.recent-section p{
+	padding-top: 35px;
+}
+
+.blog-button{
+	float: left;
+	padding-left: 30px;
+	/* color: black; */
+	padding-top: 15px;
+}
 
 
 /*end of fourth section styling*/
