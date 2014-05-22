@@ -13,13 +13,14 @@
   font-size: 40px;
   padding-bottom: 15px;
   text-align: center;
-  text-shadow: -1px 2px 2px #9d9f39;
+  
   letter-spacing: 1px;
 }
 
 .conditions-section img{
 	float: left;
 	padding-right: 15px;
+	margin
 }
 .conditions-section h3 p div{
 	display: inline-block;
@@ -48,6 +49,7 @@
 display: inline-block;
 padding-left: 25px;
 padding-right: 25px;
+padding-bottom: 5px;
 }
 
 /*end of third section styling*/
