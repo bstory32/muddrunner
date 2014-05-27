@@ -7,21 +7,6 @@ body {
   color: #5a5a5a;
 }
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-=======
-/*start of fourth section styling*/
->>>>>>> 008e08e23ce8d504211c80e736348e3e9c3c7b7c
 
 
 
@@ -31,7 +16,7 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 80px;
+ 
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {

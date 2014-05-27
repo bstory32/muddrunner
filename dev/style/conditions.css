@@ -1,6 +1,12 @@
 /*start of third section styling */
 .conditions-section{
-	margin-top: 5px;
+	/* margin-top: 0px; */
+	background: red;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .conditions-section ul{
@@ -13,17 +19,17 @@
   font-size: 40px;
   padding-bottom: 15px;
   text-align: center;
-  
   letter-spacing: 1px;
 }
 
 .conditions-section img{
 	float: left;
-	padding-right: 15px;
+	margin-right: 10px;
 	margin
 }
 .conditions-section h3 p div{
 	display: inline-block;
+	margin-bottom: 2px;
 }
 
 .conditions-section h3{
@@ -32,6 +38,17 @@
 	margin: 0;
 	text-align: left;
 }
+
+.conditions-section h3,p{
+	margin: 5px;
+}
+
+@media (max-width: 767px) {
+	.sponsors-section ul li{
+		width: 100%;
+	}
+}
+
 .sponsors-section img{
 	padding: 5px;
 	margin-bottom: -8px;
@@ -46,11 +63,6 @@
 	width: 100%;
 }
 
-.list-inline>li {
-display: inline-block;
-padding-left: 25px;
-padding-right: 25px;
-padding-bottom: 5px;
-}
+
 
 /*end of third section styling*/

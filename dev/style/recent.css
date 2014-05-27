@@ -2,40 +2,49 @@
 
 .recent-section{
 	text-align: center;
-	padding-bottom: 50px;
+	margin: 25px 0;
+
 }
 
 .recent-section ul li img{
 	display: inline-block;
-	padding-right: 15px;
+	margin-right: 5px;
 }
 
 .recent-section ul li{
-	display: inline;
-	float: left;
-
-}
-
-.recent-section ul li{
+	display: inline-block;
+	margin-bottom: 15px;
 	list-style: none;
-	width: 33%
-
+	width: 32%;
+	background: blue;
 }
 
 .recent-section img{
 	float: left;
-	padding-right: 15px;
+	
 }
 .recent-section h2{
 	text-align: left;
-	
 	letter-spacing: 1px;
-	padding-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 .recent-section p{
 	padding-right: 5px;
 }
+
+.recent-section h3{
+	text-align: left;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+@media (max-width: 767px) {
+	.recent-section ul li{
+		width: 100%;
+	}
+}
+
 
 .blog-button{
 	
