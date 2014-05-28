@@ -1,13 +1,48 @@
 /*start of third section styling */
-.conditions-section{
+
+.second-section{
 	/* margin-top: 0px; */
-	background: red;
+	background: #eee;
+	text-align: center;
+}
+.trail-condition-section{
+	border-right: solid 1px #bbb;
+}
+@media (max-width: 767px){
+	.trail-condition-section{
+	border-right: 0;
+}
+}
+.trail-condition-section ul{
+	padding-left: 0;
+	list-style: none;
+	padding-right: 1em;
+}
+.trail-condition-section ul li{
+	width: 100%;
+	text-align: left;
+	min-height: 100px;
+}
+.trail-condition-section ul li img{
+	float: left;
+	margin: 0 15px 0 0
+}
+.trail-condition-section li{
+	padding-right: 50-px;
+}
+.sponsors-sections ul{
+	padding-left: 0;
+}
+.sponsors-sections ul li{
+	width: 31%;
+	display: inline-block;
+	margin: 1% 1% 0 0
+}
+.sponsors-sections ul li img{
+	width: 100%;
 }
 
-.row {
-	margin-left: 0;
-	margin-right: 0;
-}
+
 
 .conditions-section ul{
   list-style: none;

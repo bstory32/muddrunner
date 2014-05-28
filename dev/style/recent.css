@@ -1,22 +1,27 @@
 /*start of fourth section styling*/
 
-.recent-section{
-	text-align: center;
-	margin: 25px 0;
 
+
+.recent-section{
+	margin: 25px 0;
+	
+}
+.recent-section ul{
+	width: 100%;
+	background: blue;
+}
+.recent-section ul li{
+	display: inline-block;
+	margin-bottom: 15px;
+	list-style: none;
+	width: 300px;
+	background: #bbb;
 }
 
 .recent-section ul li img{
 	display: inline-block;
 	margin-right: 5px;
-}
-
-.recent-section ul li{
-	display: inline-block;
-	margin-bottom: 15px;
-	list-style: none;
-	width: 32%;
-	background: blue;
+	width:35%;
 }
 
 .recent-section img{
@@ -44,6 +49,14 @@
 		width: 100%;
 	}
 }
+/*@media (max-width: 991px){
+	.col-sm-12 {
+width: 102%;
+}
+
+}*/
+
+
 
 
 .blog-button{
