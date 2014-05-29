@@ -45,6 +45,27 @@ color: black;
 text-shadow: -1px 2px 5px white;
 letter-spacing: 5px;
 
+}
+
+@media (max-width: 991px) {
+	.event-section ul li{
+		text-align: center;
+	}
+	.event-section ul li p{
+		margin-bottom: 2em;
+	}
+	.event-section ul li img,
+	.event-section ul li div
+	{
+		text-align: center;
+		float: none;
+		margin: 0 auto;
+	}
+	.event-section h3, p{
+		text-align: center;
+		margin: .5em 0 0 0;
+	}
+}
 
 /*end of styling second section*/
 
