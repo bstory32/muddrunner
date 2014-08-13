@@ -1,0 +1,24 @@
+@import "lib/bootstrap";
+// shared
+@import "share/variables";
+@import "share/body";
+
+
+// header
+@import "share/top-navigation";
+@import "share/header";
+@import "share/content-header";
+// footer
+
+
+
+//Home
+@import "home/home-header";
+@import "home/home-page";
+//About us
+@import "about-us/about-us-header";
+
+
+
+
+

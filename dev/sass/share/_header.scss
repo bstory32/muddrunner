@@ -1,0 +1,43 @@
+.navbar-inverse{
+	background-color: $blue;
+
+	.navbar-brand{
+		color: $white;
+	}
+	.navbar-collapse{
+		ul{
+			li{
+				a{
+					color: $white;
+				}
+				ul{
+					li{
+						a{
+							color: #333;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.navbar-inverse 
+.navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:hover, 
+.navbar-inverse .navbar-nav>.open>a:focus{
+	background: $primaryBlue;
+}
+
+.account-menu{
+	width: 200px;
+	.account-dropdown{
+		img{
+			float: left;
+			margin: 0 5px;
+		}
+		h3{
+			margin: 0;
+			font-size: 1.2em;
+		}
+	}
+}
