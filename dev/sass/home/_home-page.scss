@@ -1,306 +1,325 @@
-body{
-  font-family: "ToughMudder",Impact,Charcoal,sans-serif;
-  letter-spacing: 1px;
-  padding-bottom: 0;
-}
-
-
 
 .background1{
   background-color: #313233;
-  border-top: 2px solid #ff6700;
+  border-top: 2px solid $primary;
 }
 
 .background2{
-  background: url(https://toughmudder.cachefly.net/sites/all/themes/tough_mudder/images/backgrounds/topo-1.jpg?1403644939);
-  border-bottom: 20px solid black;
+  background: #fff;
+  border-bottom: 1px solid #000;
 }
 
 .background-image{
-  background-color: #ff6700;
+  padding: 25px 0;
+  background: url(../images/example-background.jpg);
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .main-message {
   color: white;
   padding-top: 150px;
   padding-right: 0;
+
   h1 {
-    font-size: 4em;  }
-    hr {
-      border-top: 5px solid #ff6700;
-      width: 100%;
-      position: relative;
-      margin-bottom: 0;
-    }
-
-    img{
-      width: 111px;
-      position: absolute;
-      left: 71%;
-    }
-  }
-
-  .event-section{
-    background-color: #fff;
-    padding-left: 0;
-    padding-right: 0;
-    h2{
-      margin: 0;
-      padding: 20px 0 0 20px;
-    }
-    img {
-      vertical-align: top;
-    }
-    span{
-      font-size: 1em;
-      font-weight: 500;
-      color: #727272;
-      display: inline-block;
-      margin-bottom: 5px;
-    }
-
-    p{
-      margin-top: -5px;
-      font-size: 1.3em;
-      font-weight: 600;
-    }
-    a{
-      color: #ff6700;
-    }
-    a:hover{
-      color: #d25a1c;
-    }
-  }
-
-  .event-header {
-    background: #1aa7b2;
-    color: #fff;
-    padding: 0;
-    margin: 0;
-  }
-
-  .event-list {
-    padding: 20px 20px 0 20px;
-    list-style: none;
-    display: inline-block;
-  }
-
-  .featured-event{
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    position: relative;
-  }
-
-  .more a{
-    float: right;
+    font-size: 4em;  
     text-transform: uppercase;
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 5%;
-    color: #000;
   }
-
-  .news-header{
-    background: #1aa7b2;
-    color: #fff;
-    padding: 0;
-    margin: 0;
-  }
-
-  .news-section{
-    background-color: #fff;
-    padding: 0 0 50px;
-    margin: 80px 0;
+  hr {
+    border-top: 5px solid $secondary;
+    width: 100%;
     position: relative;
-    padding-bottom: 0;
-
-    hr{
-      margin: 5px 0;
-    }
-    h2{
-      margin: 0;
-      padding: 20px 0 0 20px;
-    }
-    img {
-      vertical-align: top;
-    }
-    span{
-      font-size: 1em;
-      font-weight: 500;
-      color: #727272;
-      display: inline-block;
-      margin-bottom: 5px;
-    }
-
-    p{
-      margin-top: -5px;
-      font-size: 1.3em;
-      font-weight: 600;
-      color: #000;
-    }
-    a{
-      color: #ff6700;
-    }
-    a:hover{
-      color: #d25a1c;
-    }
-
-    .more a{
-      float: right;
-      text-transform: uppercase;
-      display: inline-block;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-right: 5%;
-      color: #000;
-    }
-
-    .more a:hover{
-      color: #d25a1c;
-    }
+    margin-bottom: 0;
   }
 
-  .more-info {
-    padding: 0 0 50px;
-    margin: 80px 0;
+  img{
+    width: 111px;
+    position: absolute;
+    left: 71%;
+    color: $primary;
+  }
+}
 
-    
-    p{
-      font-family: "MuseoSlab-300","Palatino Linotype","Book Antiqua",Palatino,serif;
-    }
-
+.event-section{
+  background-color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+  h2{
+    margin: 0;
+    padding: 20px 0 0 20px;
+  }
+  img {
+    vertical-align: top;
+    background: #eee;
+    height: 100;
+    width: 140;
+  }
+  span{
+    font-size: 1em;
+    font-weight: 500;
+    color: #727272;
+    display: inline-block;
+    margin-bottom: 5px;
   }
 
-  .projects {
-    border: 1px solid #000;
-    background: #000;
-    margin-left: 30px;  
-    padding: 24px 20px;
-
-    hr{
-      margin: 10px 0;
-      border-top: 2px solid #1aa7b2;
-      width: 100%;
-      position: relative;
-    }
-
-    h3{
-      margin-top: 0;
-      color: white;
-      font-size: 1.875em;
-    }
-
-
+  p{
+    font-size: 1.3em;
+    font-weight: 600;
   }
+}
+
+.event-header {
+  padding: 0;
+  margin: 0;
+  h2{
+    background-color: $secondary;
+    color: #fff;
+  }
+}
+
+.event-list {
+  padding: 20px 20px 0 20px;
+  list-style: none;
+
+  li{
+    height: 125px;
+    margin-bottom: 2em;
+    position: relative;
+    border-bottom: 1px solid $primary;    
+  }
+  img{
+    background: #eee;
+    height: 100;
+    width: 140;
+    float: left;
+    margin-right: 1em;
+  }
+
+
+}
+
+.more a{
+  float: right;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5%;
+}
+
+.news-header{
+  background: $secondary;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.news-section{
+  background-color: #1d1e1f;
+  padding: 0 0 50px;
+  margin: 80px 0;
+  position: relative;
+  padding-bottom: 0;
+
+  h2{
+    margin: 0;
+    padding: 20px 0 0 20px;
+  }
+  img {
+    vertical-align: top;
+    background: #eee;
+    height: 100;
+    width: 140;
+  }
+  span{
+    font-size: 1em;
+    font-weight: 500;
+    color: #727272;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  p{
+    margin-top: -5px;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #fff;
+  }
+  
 
   .articles{
     padding: 20px 20px 0 20px;
     list-style: none;
+    margin-bottom: 0;
+
+    li{
+      height: 130px;
+      
+      padding-top: 15px;
+
+      img{
+        float: left;
+        margin-right: 1em;
+      }
+
+      &+li{
+        border-top: 1px solid $secondary;
+      }
+
+    }
   }
 
-  .more-projects{
-    width: 94.8%;
-    background: #1d1e1f;
-    height: 40px;
+  .more a{
+    text-transform: uppercase;
     text-align: right;
-    margin-left: 30px;
-    
-    a{
-      text-transform: uppercase;
-      display: inline-block;
-      padding-top: 10px;
-      padding-right: 5%;
-      color: white;
-    }
-
-    a:hover{
-      color: #d25a1c;
-    }
-
-  }
-
-  .obstacle-section{
-    h1{
-      font-size: 3.5em;
-      color: #fff;
-      text-transform: uppercase;
-      margin-top: 0;
-    }
-
-    h5{
-      margin: 0;
-      padding: 10px 0;
-    }
-  }
-
-  .obstacle-info{
-    text-align: center;
-
-  }
-
-  .obstacle-details{
-    padding: 15px 20px 0 20px;
-    margin-bottom: 20px;
-    color: #ebebeb;
-    border: 1px solid #000;
+    height: 41px;
+    width: 100%;
+    display: block;
     background: #000;
-    width: 50%;
-    float: right;
-
-    p{
-      font-family: "MuseoSlab-300","Palatino Linotype","Book Antiqua",Palatino,serif;
-    }
   }
 
-  .footer-background{
-    color: #000;
+}
 
+.more-info {
+  padding: 0 0 50px;
+  margin: 80px 0;
 
-  }
-
-  .footer-content{
-    margin-top: 20px;
-    padding: 0;
-  }
-
-  .navbar-menu{
-    display: inline-block;
-    float: right;
-
-    ul{
-      display: none;
-    }
-
-    li{
-      display: inline-block;
-      padding: 5px 3em;
-    }
-  }
-
-  .social-links{
-    margin: 50px 0 50px 0;
-    text-align: center;
-
-    ul{
-      list-style: none;
-
-    }
-
-    li{
-      display: inline-block;
-    }
-
-    li+li{
-      margin: 0 20px;
-    }
-  }
-
-  .created-by{
+  img{
     background: #eee;
-    padding: 10px;
-    border-top: 4px solid #ff6700;
+    height: 100;
+    width: 140;
   }
+
+  p{
+    font-family: "MuseoSlab-300","Palatino Linotype","Book Antiqua",Palatino,serif;
+  }
+
+}
+
+.projects {
+  border: 1px solid #000;
+  background: #000;
+  margin-left: 30px;  
+  padding: 24px 20px;
+
+  hr{
+    margin: 10px 0;
+    border-top: 2px solid $secondary;
+    width: 100%;
+    position: relative;
+  }
+
+  h3{
+    margin-top: 0;
+    color: white;
+    font-size: 1.875em;
+  }
+
+
+}
+
+.articles{
+
+
+
+}
+
+.more-projects{
+  background: #1d1e1f;
+  height: 40px;
+  text-align: right;
+  margin-left: 30px;
+
+  a{
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 5%;
+  }
+
+}
+
+.obstacle-section{
+  h1{
+    font-size: 3.5em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0;
+  }
+
+}
+
+.obstacle-info{
+  text-align: center;
+
+}
+
+.obstacle-details{
+  padding: 15px 20px 0 20px;
+  margin-bottom: 20px;
+  color: #ebebeb;
+  border: 1px solid #000;
+  background: #000;
+  width: 50%;
+  float: right;
+
+  p{
+    font-family: "MuseoSlab-300","Palatino Linotype","Book Antiqua",Palatino,serif;
+  }
+
+  a{
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 5%;
+    float: right;
+
+  }
+
+  
+}
+
+.footer-background{
+  color: #000;
+
+
+}
+
+.footer-content{
+
+  ul{
+    list-style: none;
+    padding: 25px 10px;
+  }
+
+  li{
+    margin: 0 2px;
+    display: inline-block;
+
+    &+li{
+      border-left: 1px solid #000;
+      padding-left: 6px;
+    }
+  }
+
+}
+
+.created-by{
+  background: #000;
+  padding: 10px;
+  border-top: 4px solid $secondary;
+  font-family: helvetica sans-serif;
+
+  p{
+    color: #fff;
+  }
+
+  a{
+    text-transform: uppercase;
+    display: inline-block;
+  }
+
+}
 
 
 

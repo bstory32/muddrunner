@@ -4,8 +4,21 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 50px;
-  color: #5a5a5a;
+	color: #5a5a5a;
+	letter-spacing: 1px;
+	padding-bottom: 0;
+	padding-top: 54px;
 }
 
+h1,h2,h3,h4{
+	font-family: "ToughMudder",Impact,Charcoal,sans-serif;
+}
+
+a{
+	color: $secondary;
+	
+	&:hover{
+		color: #d25a1c;
+	}
+}
 
