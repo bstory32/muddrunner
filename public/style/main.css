@@ -8804,12 +8804,12 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-/* line 21, ../../sass/share/_variables.scss */
+/* line 7, ../../sass/share/_variables.scss */
 .btn-primary {
-  background-color: #fd742b;
+  background-color: #5f391f;
   border: 0;
 }
-/* line 24, ../../sass/share/_variables.scss */
+/* line 10, ../../sass/share/_variables.scss */
 .btn-primary:hover {
   background-color: #fc6220;
 }
@@ -8819,68 +8819,28 @@ button.close {
 /* Padding below the footer and lighter body text */
 /* line 6, ../../sass/share/_body.scss */
 body {
-  padding-bottom: 50px;
   color: #5a5a5a;
+  letter-spacing: 1px;
+  padding-bottom: 0;
+  padding-top: 54px;
 }
 
-/* line 1, ../../sass/share/_top-navigation.scss */
-.navbar-default {
-  border-color: #e7e7e7;
+/* line 13, ../../sass/share/_body.scss */
+h1, h2, h3, h4 {
+  font-family: "ToughMudder",Impact,Charcoal,sans-serif;
 }
 
-/* line 1, ../../sass/share/_header.scss */
-.navbar-inverse {
-  background-color: #2980b9;
+/* line 17, ../../sass/share/_body.scss */
+a {
+  color: #1c8302;
 }
-/* line 4, ../../sass/share/_header.scss */
-.navbar-inverse .navbar-brand {
-  color: white;
-}
-/* line 10, ../../sass/share/_header.scss */
-.navbar-inverse .navbar-collapse ul li a {
-  color: white;
-}
-/* line 15, ../../sass/share/_header.scss */
-.navbar-inverse .navbar-collapse ul li ul li a {
-  color: #333;
+/* line 20, ../../sass/share/_body.scss */
+a:hover {
+  color: #d25a1c;
 }
 
-/* line 27, ../../sass/share/_header.scss */
-.navbar-inverse
-.navbar-nav > .open > a,
-.navbar-inverse .navbar-nav > .open > a:hover,
-.navbar-inverse .navbar-nav > .open > a:focus {
-  background: #246784;
-}
-
-/* line 31, ../../sass/share/_header.scss */
-.account-menu {
-  width: 200px;
-}
-/* line 34, ../../sass/share/_header.scss */
-.account-menu .account-dropdown img {
-  float: left;
-  margin: 0 5px;
-}
-/* line 38, ../../sass/share/_header.scss */
-.account-menu .account-dropdown h3 {
-  margin: 0;
-  font-size: 1.2em;
-}
-
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-/* line 5, ../../sass/home/_home-header.scss */
-body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
-}
-
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
-/* line 16, ../../sass/home/_home-header.scss */
+/* line 3, ../../sass/home/_home-header.scss */
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -8889,183 +8849,84 @@ body {
   z-index: 20;
 }
 
-/* line 25, ../../sass/home/_home-header.scss */
+/* line 11, ../../sass/home/_home-header.scss */
 .navbar-inverse {
   background: #ececec;
-  border-bottom: 4px solid #ff6700;
+  border-bottom: 4px solid #5f391f;
 }
 
-/* line 29, ../../sass/home/_home-header.scss */
+/* line 16, ../../sass/home/_home-header.scss */
 .navbar-inverse .navbar-collapse ul li a {
   color: #000;
 }
 
-/* line 33, ../../sass/home/_home-header.scss */
+/* line 20, ../../sass/home/_home-header.scss */
 .navbar-inverse .navbar-collapse ul li a:hover {
   color: #ff6700;
 }
 
-/* line 37, ../../sass/home/_home-header.scss */
+/* line 24, ../../sass/home/_home-header.scss */
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   color: #000;
   background-color: #ececec;
 }
 
-/* line 42, ../../sass/home/_home-header.scss */
+/* line 29, ../../sass/home/_home-header.scss */
 .navbar-inverse .navbar-brand {
   color: #ff6700;
 }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-/* Carousel base class */
-/* line 54, ../../sass/home/_home-header.scss */
-.carousel {
-  height: 500px;
-  margin-bottom: 0px;
+/* line 34, ../../sass/home/_home-header.scss */
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #5f391f;
+  background-color: transparent;
 }
 
-/* Since positioning the image, we need to help out the caption */
-/* line 59, ../../sass/home/_home-header.scss */
-.carousel-caption {
-  z-index: 10;
-  padding: 5em;
-}
-
-/* Declare heights because of positioning of img element */
-/* line 65, ../../sass/home/_home-header.scss */
-.carousel .item {
-  height: 500px;
-  background-color: #777;
-}
-
-/* line 69, ../../sass/home/_home-header.scss */
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-}
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-/* Center align the text within the three columns below the carousel */
-/* line 83, ../../sass/home/_home-header.scss */
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-/* line 87, ../../sass/home/_home-header.scss */
-.marketing h2 {
-  font-weight: normal;
-}
-
-/* line 90, ../../sass/home/_home-header.scss */
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-/* Featurettes
-------------------------- */
-/* line 99, ../../sass/home/_home-header.scss */
-.featurette-divider {
-  margin: 80px 0;
-  /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-/* line 104, ../../sass/home/_home-header.scss */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
-}
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-@media (min-width: 768px) {
-  /* Navbar positioning foo */
-  /* line 119, ../../sass/home/_home-header.scss */
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-
-  /* line 123, ../../sass/home/_home-header.scss */
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  /* The navbar becomes detached from the top, so we round the corners */
-  /* Bump up size of carousel content */
-  /* line 132, ../../sass/home/_home-header.scss */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
-
-  /* line 138, ../../sass/home/_home-header.scss */
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-@media (min-width: 992px) {
-  /* line 144, ../../sass/home/_home-header.scss */
-  .featurette-heading {
-    margin-top: 120px;
-  }
-}
-/* line 1, ../../sass/home/_home-page.scss */
-body {
-  font-family: "ToughMudder",Impact,Charcoal,sans-serif;
-  letter-spacing: 1px;
-  padding-bottom: 0;
-}
-
-/* line 9, ../../sass/home/_home-page.scss */
+/* line 2, ../../sass/home/_home-page.scss */
 .background1 {
   background-color: #313233;
-  border-top: 2px solid #ff6700;
+  border-top: 2px solid #5f391f;
 }
 
-/* line 14, ../../sass/home/_home-page.scss */
+/* line 7, ../../sass/home/_home-page.scss */
 .background2 {
-  background: url(https://toughmudder.cachefly.net/sites/all/themes/tough_mudder/images/backgrounds/topo-1.jpg?1403644939);
-  border-bottom: 20px solid black;
+  background: #fff;
+  border-bottom: 1px solid #000;
+}
+
+/* line 12, ../../sass/home/_home-page.scss */
+.background-image {
+  padding: 25px 0;
+  background: url(../images/example-background.jpg);
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 /* line 19, ../../sass/home/_home-page.scss */
-.background-image {
-  background-color: #ff6700;
-}
-
-/* line 23, ../../sass/home/_home-page.scss */
 .main-message {
   color: white;
   padding-top: 150px;
   padding-right: 0;
 }
-/* line 27, ../../sass/home/_home-page.scss */
+/* line 24, ../../sass/home/_home-page.scss */
 .main-message h1 {
   font-size: 4em;
+  text-transform: uppercase;
 }
-/* line 29, ../../sass/home/_home-page.scss */
+/* line 28, ../../sass/home/_home-page.scss */
 .main-message hr {
-  border-top: 5px solid #ff6700;
+  border-top: 5px solid #1c8302;
   width: 100%;
   position: relative;
   margin-bottom: 0;
 }
-/* line 36, ../../sass/home/_home-page.scss */
+/* line 35, ../../sass/home/_home-page.scss */
 .main-message img {
   width: 111px;
   position: absolute;
   left: 71%;
+  color: #5f391f;
 }
 
 /* line 43, ../../sass/home/_home-page.scss */
@@ -9093,42 +8954,40 @@ body {
 }
 /* line 62, ../../sass/home/_home-page.scss */
 .event-section p {
-  margin-top: -5px;
   font-size: 1.3em;
   font-weight: 600;
 }
-/* line 67, ../../sass/home/_home-page.scss */
-.event-section a {
-  color: #ff6700;
-}
-/* line 70, ../../sass/home/_home-page.scss */
-.event-section a:hover {
-  color: #d25a1c;
-}
 
-/* line 75, ../../sass/home/_home-page.scss */
+/* line 68, ../../sass/home/_home-page.scss */
 .event-header {
-  background: #1aa7b2;
-  color: #fff;
   padding: 0;
   margin: 0;
 }
+/* line 71, ../../sass/home/_home-page.scss */
+.event-header h2 {
+  background-color: #1c8302;
+  color: #fff;
+}
 
-/* line 82, ../../sass/home/_home-page.scss */
+/* line 77, ../../sass/home/_home-page.scss */
 .event-list {
   padding: 20px 20px 0 20px;
   list-style: none;
-  display: inline-block;
 }
-
-/* line 88, ../../sass/home/_home-page.scss */
-.featured-event {
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+/* line 81, ../../sass/home/_home-page.scss */
+.event-list li {
+  height: 125px;
+  margin-bottom: 2em;
   position: relative;
+  border-bottom: 1px solid #5f391f;
+}
+/* line 87, ../../sass/home/_home-page.scss */
+.event-list img {
+  float: left;
+  margin-right: 1em;
 }
 
-/* line 94, ../../sass/home/_home-page.scss */
+/* line 95, ../../sass/home/_home-page.scss */
 .more a {
   float: right;
   text-transform: uppercase;
@@ -9136,12 +8995,11 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 5%;
-  color: #000;
 }
 
 /* line 104, ../../sass/home/_home-page.scss */
 .news-header {
-  background: #1aa7b2;
+  background: #1c8302;
   color: #fff;
   padding: 0;
   margin: 0;
@@ -9149,26 +9007,22 @@ body {
 
 /* line 111, ../../sass/home/_home-page.scss */
 .news-section {
-  background-color: #fff;
+  background-color: #1d1e1f;
   padding: 0 0 50px;
   margin: 80px 0;
   position: relative;
   padding-bottom: 0;
 }
 /* line 118, ../../sass/home/_home-page.scss */
-.news-section hr {
-  margin: 5px 0;
-}
-/* line 121, ../../sass/home/_home-page.scss */
 .news-section h2 {
   margin: 0;
   padding: 20px 0 0 20px;
 }
-/* line 125, ../../sass/home/_home-page.scss */
+/* line 122, ../../sass/home/_home-page.scss */
 .news-section img {
   vertical-align: top;
 }
-/* line 128, ../../sass/home/_home-page.scss */
+/* line 125, ../../sass/home/_home-page.scss */
 .news-section span {
   font-size: 1em;
   font-weight: 500;
@@ -9176,113 +9030,103 @@ body {
   display: inline-block;
   margin-bottom: 5px;
 }
-/* line 136, ../../sass/home/_home-page.scss */
+/* line 133, ../../sass/home/_home-page.scss */
 .news-section p {
   margin-top: -5px;
   font-size: 1.3em;
   font-weight: 600;
-  color: #000;
+  color: #fff;
 }
-/* line 142, ../../sass/home/_home-page.scss */
-.news-section a {
-  color: #ff6700;
+/* line 141, ../../sass/home/_home-page.scss */
+.news-section .articles {
+  padding: 20px 20px 0 20px;
+  list-style: none;
+  margin-bottom: 0;
 }
-/* line 145, ../../sass/home/_home-page.scss */
-.news-section a:hover {
-  color: #d25a1c;
+/* line 146, ../../sass/home/_home-page.scss */
+.news-section .articles li {
+  height: 130px;
+  padding-top: 15px;
 }
-/* line 149, ../../sass/home/_home-page.scss */
+/* line 151, ../../sass/home/_home-page.scss */
+.news-section .articles li img {
+  float: left;
+  margin-right: 1em;
+}
+/* line 156, ../../sass/home/_home-page.scss */
+.news-section .articles li + li {
+  border-top: 1px solid #1c8302;
+}
+/* line 163, ../../sass/home/_home-page.scss */
 .news-section .more a {
-  float: right;
   text-transform: uppercase;
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 5%;
-  color: #000;
-}
-/* line 159, ../../sass/home/_home-page.scss */
-.news-section .more a:hover {
-  color: #d25a1c;
+  text-align: right;
+  height: 41px;
+  width: 100%;
+  display: block;
+  background: #000;
 }
 
-/* line 164, ../../sass/home/_home-page.scss */
+/* line 174, ../../sass/home/_home-page.scss */
 .more-info {
   padding: 0 0 50px;
   margin: 80px 0;
 }
-/* line 169, ../../sass/home/_home-page.scss */
+/* line 179, ../../sass/home/_home-page.scss */
 .more-info p {
   font-family: "MuseoSlab-300","Palatino Linotype","Book Antiqua",Palatino,serif;
 }
 
-/* line 175, ../../sass/home/_home-page.scss */
+/* line 185, ../../sass/home/_home-page.scss */
 .projects {
   border: 1px solid #000;
   background: #000;
   margin-left: 30px;
   padding: 24px 20px;
 }
-/* line 181, ../../sass/home/_home-page.scss */
+/* line 191, ../../sass/home/_home-page.scss */
 .projects hr {
   margin: 10px 0;
-  border-top: 2px solid #1aa7b2;
+  border-top: 2px solid #1c8302;
   width: 100%;
   position: relative;
 }
-/* line 188, ../../sass/home/_home-page.scss */
+/* line 198, ../../sass/home/_home-page.scss */
 .projects h3 {
   margin-top: 0;
   color: white;
   font-size: 1.875em;
 }
 
-/* line 197, ../../sass/home/_home-page.scss */
-.articles {
-  padding: 20px 20px 0 20px;
-  list-style: none;
-}
-
-/* line 202, ../../sass/home/_home-page.scss */
+/* line 213, ../../sass/home/_home-page.scss */
 .more-projects {
-  width: 94.8%;
   background: #1d1e1f;
   height: 40px;
   text-align: right;
   margin-left: 30px;
 }
-/* line 209, ../../sass/home/_home-page.scss */
+/* line 219, ../../sass/home/_home-page.scss */
 .more-projects a {
   text-transform: uppercase;
   display: inline-block;
   padding-top: 10px;
   padding-right: 5%;
-  color: white;
-}
-/* line 217, ../../sass/home/_home-page.scss */
-.more-projects a:hover {
-  color: #d25a1c;
 }
 
-/* line 224, ../../sass/home/_home-page.scss */
+/* line 229, ../../sass/home/_home-page.scss */
 .obstacle-section h1 {
   font-size: 3.5em;
   color: #fff;
   text-transform: uppercase;
   margin-top: 0;
 }
-/* line 231, ../../sass/home/_home-page.scss */
-.obstacle-section h5 {
-  margin: 0;
-  padding: 10px 0;
-}
 
-/* line 237, ../../sass/home/_home-page.scss */
+/* line 238, ../../sass/home/_home-page.scss */
 .obstacle-info {
   text-align: center;
 }
 
-/* line 242, ../../sass/home/_home-page.scss */
+/* line 243, ../../sass/home/_home-page.scss */
 .obstacle-details {
   padding: 15px 20px 0 20px;
   margin-bottom: 20px;
@@ -9292,58 +9136,119 @@ body {
   width: 50%;
   float: right;
 }
-/* line 251, ../../sass/home/_home-page.scss */
+/* line 252, ../../sass/home/_home-page.scss */
 .obstacle-details p {
   font-family: "MuseoSlab-300","Palatino Linotype","Book Antiqua",Palatino,serif;
 }
-
 /* line 256, ../../sass/home/_home-page.scss */
+.obstacle-details a {
+  text-transform: uppercase;
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 5%;
+  float: right;
+}
+
+/* line 268, ../../sass/home/_home-page.scss */
 .footer-background {
   color: #000;
 }
 
-/* line 262, ../../sass/home/_home-page.scss */
-.footer-content {
-  margin-top: 20px;
-  padding: 0;
-}
-
-/* line 267, ../../sass/home/_home-page.scss */
-.navbar-menu {
-  display: inline-block;
-  float: right;
-}
-/* line 271, ../../sass/home/_home-page.scss */
-.navbar-menu ul {
-  display: none;
-}
-/* line 275, ../../sass/home/_home-page.scss */
-.navbar-menu li {
-  display: inline-block;
-  padding: 5px 3em;
-}
-
-/* line 281, ../../sass/home/_home-page.scss */
-.social-links {
-  margin: 50px 0 50px 0;
-  text-align: center;
-}
-/* line 285, ../../sass/home/_home-page.scss */
-.social-links ul {
+/* line 274, ../../sass/home/_home-page.scss */
+.footer-content ul {
   list-style: none;
+  padding: 25px 0;
+  margin: 0;
+}
+/* line 280, ../../sass/home/_home-page.scss */
+.footer-content li {
+  margin: 0 2px;
+  display: inline-block;
+}
+/* line 284, ../../sass/home/_home-page.scss */
+.footer-content li + li {
+  border-left: 1px solid #000;
+  padding-left: 6px;
 }
 /* line 290, ../../sass/home/_home-page.scss */
-.social-links li {
-  display: inline-block;
-}
-/* line 294, ../../sass/home/_home-page.scss */
-.social-links li + li {
-  margin: 0 20px;
+.footer-content i {
+  font-size: 20px;
+  padding: 0 5px;
 }
 
-/* line 299, ../../sass/home/_home-page.scss */
+/* line 297, ../../sass/home/_home-page.scss */
+.social-links {
+  float: right;
+}
+
+/* line 301, ../../sass/home/_home-page.scss */
 .created-by {
-  background: #eee;
+  background: #000;
   padding: 10px;
-  border-top: 4px solid #ff6700;
+  border-top: 4px solid #1c8302;
+  font-family: helvetica sans-serif;
+}
+/* line 307, ../../sass/home/_home-page.scss */
+.created-by p {
+  color: #fff;
+}
+/* line 311, ../../sass/home/_home-page.scss */
+.created-by a {
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/* line 1, ../../sass/content/_content-header.scss */
+.title-section {
+  background: #313233;
+  padding: 50px 0;
+  text-align: center;
+}
+/* line 5, ../../sass/content/_content-header.scss */
+.title-section h1 {
+  color: #fff;
+}
+/* line 9, ../../sass/content/_content-header.scss */
+.title-section p {
+  color: #5f391f;
+}
+
+/* line 1, ../../sass/content/_content-body.scss */
+.about-section {
+  background: #1c8302;
+  border-bottom: 1px solid #ff6700;
+}
+/* line 4, ../../sass/content/_content-body.scss */
+.about-section h2 {
+  margin: 0;
+  padding: 20px 0 0 20px;
+  color: #fff;
+}
+
+/* line 12, ../../sass/content/_content-body.scss */
+.about-details {
+  padding: 25px 0;
+}
+/* line 15, ../../sass/content/_content-body.scss */
+.about-details img {
+  float: left;
+  margin: 10px 15px;
+}
+/* line 20, ../../sass/content/_content-body.scss */
+.about-details p {
+  margin: 10px 0;
+}
+
+/* line 26, ../../sass/content/_content-body.scss */
+.additional-info {
+  background: #313233;
+  padding: 25px 0;
+}
+/* line 30, ../../sass/content/_content-body.scss */
+.additional-info h3 {
+  color: #fff;
+}
+/* line 34, ../../sass/content/_content-body.scss */
+.additional-info p {
+  color: #eee;
 }
