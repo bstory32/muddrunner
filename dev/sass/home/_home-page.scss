@@ -177,8 +177,10 @@
 
   
   p{
+    height: 71px;
     font-family: "MuseoSlab-300","Palatino Linotype","Book Antiqua",Palatino,serif;
   }
+
 
 }
 
@@ -186,7 +188,7 @@
   border: 1px solid #000;
   background: #000;
   margin-left: 30px;  
-  padding: 24px 20px;
+  padding: 40px 20px;
 
   hr{
     margin: 10px 0;
@@ -199,6 +201,11 @@
     margin-top: 0;
     color: white;
     font-size: 1.875em;
+  }
+
+  img{
+    float: left;
+    margin-right: 15px;
   }
 
 

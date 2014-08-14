@@ -9074,38 +9074,44 @@ a:hover {
 }
 /* line 179, ../../sass/home/_home-page.scss */
 .more-info p {
+  height: 71px;
   font-family: "MuseoSlab-300","Palatino Linotype","Book Antiqua",Palatino,serif;
 }
 
-/* line 185, ../../sass/home/_home-page.scss */
+/* line 187, ../../sass/home/_home-page.scss */
 .projects {
   border: 1px solid #000;
   background: #000;
   margin-left: 30px;
-  padding: 24px 20px;
+  padding: 40px 20px;
 }
-/* line 191, ../../sass/home/_home-page.scss */
+/* line 193, ../../sass/home/_home-page.scss */
 .projects hr {
   margin: 10px 0;
   border-top: 2px solid #1c8302;
   width: 100%;
   position: relative;
 }
-/* line 198, ../../sass/home/_home-page.scss */
+/* line 200, ../../sass/home/_home-page.scss */
 .projects h3 {
   margin-top: 0;
   color: white;
   font-size: 1.875em;
 }
+/* line 206, ../../sass/home/_home-page.scss */
+.projects img {
+  float: left;
+  margin-right: 15px;
+}
 
-/* line 213, ../../sass/home/_home-page.scss */
+/* line 220, ../../sass/home/_home-page.scss */
 .more-projects {
   background: #1d1e1f;
   height: 40px;
   text-align: right;
   margin-left: 30px;
 }
-/* line 219, ../../sass/home/_home-page.scss */
+/* line 226, ../../sass/home/_home-page.scss */
 .more-projects a {
   text-transform: uppercase;
   display: inline-block;
@@ -9113,7 +9119,7 @@ a:hover {
   padding-right: 5%;
 }
 
-/* line 229, ../../sass/home/_home-page.scss */
+/* line 236, ../../sass/home/_home-page.scss */
 .obstacle-section h1 {
   font-size: 3.5em;
   color: #fff;
@@ -9121,12 +9127,12 @@ a:hover {
   margin-top: 0;
 }
 
-/* line 238, ../../sass/home/_home-page.scss */
+/* line 245, ../../sass/home/_home-page.scss */
 .obstacle-info {
   text-align: center;
 }
 
-/* line 243, ../../sass/home/_home-page.scss */
+/* line 250, ../../sass/home/_home-page.scss */
 .obstacle-details {
   padding: 15px 20px 0 20px;
   margin-bottom: 20px;
@@ -9136,11 +9142,11 @@ a:hover {
   width: 50%;
   float: right;
 }
-/* line 252, ../../sass/home/_home-page.scss */
+/* line 259, ../../sass/home/_home-page.scss */
 .obstacle-details p {
   font-family: "MuseoSlab-300","Palatino Linotype","Book Antiqua",Palatino,serif;
 }
-/* line 256, ../../sass/home/_home-page.scss */
+/* line 263, ../../sass/home/_home-page.scss */
 .obstacle-details a {
   text-transform: uppercase;
   display: inline-block;
@@ -9149,50 +9155,50 @@ a:hover {
   float: right;
 }
 
-/* line 268, ../../sass/home/_home-page.scss */
+/* line 275, ../../sass/home/_home-page.scss */
 .footer-background {
   color: #000;
 }
 
-/* line 274, ../../sass/home/_home-page.scss */
+/* line 281, ../../sass/home/_home-page.scss */
 .footer-content ul {
   list-style: none;
   padding: 25px 0;
   margin: 0;
 }
-/* line 280, ../../sass/home/_home-page.scss */
+/* line 287, ../../sass/home/_home-page.scss */
 .footer-content li {
   margin: 0 2px;
   display: inline-block;
 }
-/* line 284, ../../sass/home/_home-page.scss */
+/* line 291, ../../sass/home/_home-page.scss */
 .footer-content li + li {
   border-left: 1px solid #000;
   padding-left: 6px;
 }
-/* line 290, ../../sass/home/_home-page.scss */
+/* line 297, ../../sass/home/_home-page.scss */
 .footer-content i {
   font-size: 20px;
   padding: 0 5px;
 }
 
-/* line 297, ../../sass/home/_home-page.scss */
+/* line 304, ../../sass/home/_home-page.scss */
 .social-links {
   float: right;
 }
 
-/* line 301, ../../sass/home/_home-page.scss */
+/* line 308, ../../sass/home/_home-page.scss */
 .created-by {
   background: #000;
   padding: 10px;
   border-top: 4px solid #1c8302;
   font-family: helvetica sans-serif;
 }
-/* line 307, ../../sass/home/_home-page.scss */
+/* line 314, ../../sass/home/_home-page.scss */
 .created-by p {
   color: #fff;
 }
-/* line 311, ../../sass/home/_home-page.scss */
+/* line 318, ../../sass/home/_home-page.scss */
 .created-by a {
   text-transform: uppercase;
   display: inline-block;
