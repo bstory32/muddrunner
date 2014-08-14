@@ -50,9 +50,6 @@
   }
   img {
     vertical-align: top;
-    background: #eee;
-    height: 100;
-    width: 140;
   }
   span{
     font-size: 1em;
@@ -88,9 +85,6 @@
     border-bottom: 1px solid $primary;    
   }
   img{
-    background: #eee;
-    height: 100;
-    width: 140;
     float: left;
     margin-right: 1em;
   }
@@ -127,9 +121,6 @@
   }
   img {
     vertical-align: top;
-    background: #eee;
-    height: 100;
-    width: 140;
   }
   span{
     font-size: 1em;
@@ -184,12 +175,7 @@
   padding: 0 0 50px;
   margin: 80px 0;
 
-  img{
-    background: #eee;
-    height: 100;
-    width: 140;
-  }
-
+  
   p{
     font-family: "MuseoSlab-300","Palatino Linotype","Book Antiqua",Palatino,serif;
   }
@@ -281,15 +267,14 @@
 
 .footer-background{
   color: #000;
-
-
 }
 
 .footer-content{
 
   ul{
     list-style: none;
-    padding: 25px 10px;
+    padding: 25px 0;
+    margin: 0;
   }
 
   li{
@@ -302,6 +287,15 @@
     }
   }
 
+  i{
+    font-size: 20px;
+    padding: 0 5px;
+  }
+
+}
+
+.social-links{
+  float: right;
 }
 
 .created-by{
