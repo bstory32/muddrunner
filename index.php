@@ -14,26 +14,26 @@
         </div>
         <ul class="event-list">
           <li>
-            <img src="http://placehold.it/140x100" alt="">
+            <img src="public/images/photos/event1.jpg" alt="">
             <span>August 9 &amp 10, 2014</span>
             <p>Portland</p>
             <a href="#">95% Sold Out - Register >></a>
 
           </li>
           <li>
-            <img src="http://placehold.it/140x100">
+            <img src="public/images/photos/event2.jpg">
             <span>August 16 &amp 17, 2014</span>
             <p>Pittsburgh/Ohio Valley</p>
             <a href="#">95% Sold Out - Register >></a>
           </li>
           <li>
-            <img src="http://placehold.it/140x100">
+            <img src="public/images/photos/event3.jpg">
             <span>August 16 &amp 17, 2014</span>
             <p>Tahoe</p>
             <a href="">Register >></a>
           </li>
           <li>
-            <img src="http://placehold.it/140x100">
+            <img src="public/images/photos/event4.jpg">
             <span>August 16 &amp 17, 2014</span>
             <p>Toronto</p>
             <a href="#">Register >></a>
@@ -45,10 +45,10 @@
       </div>
 
       <div class="col-sm-6 main-message">
-        <h1>I survived muddrunner.</h1>
+        <h1>I survived Frozen Gnome.</h1>
         <hr>
         <!-- <img src="public/images/splatter.png" alt=""> -->
-        <p>Neil Sammons</p>
+        <p>Photographed at <strong>Frozen Gnome</strong> by <em>Scott Laudick</em></p>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@
     <div class="row">
       <div class="col-sm-12 obstacle-section">
         <div class="obstacle-info">
-          <h1>Muddy Expedition</h1>
+          <h1>Our Sponsors</h1>
         </div>
         <div class="obstacle-details">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet inventore vitae, architecto exercitationem. Tenetur necessitatibus repellat dolorum alias magnam aliquid nisi molestias, et id rem ducimus ea sed porro deleniti!</p>

@@ -7,7 +7,7 @@
   <meta name="author" content="">
   <link rel="icon" href="../../favicon.ico">
 
-  <title>Muddrunner</title>
+  <title>Muddrunner.com</title>
 
   <!-- Bootstrap core CSS -->
   <link href="public/style/main.css" rel="stylesheet">
@@ -29,15 +29,15 @@
       <div class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Muddrunner</a>
+            <a class="navbar-brand" href="#"><img src="public/images/photos/logo.png" alt=""><strong>MUDD</strong>RUNNER</a>
           </div>
           <div class="navbar-collapse collapse navbar-right">
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.php">Home</a></li>
               <li><a href="content.php">About Us</a></li>
+              <li><a href="#contact">Volunteering</a></li>
               <li><a href="content-2col.php">Race Calendar</a></li>
               <li><a href="#contact">Trails</a></li>
-              <li><a href="#contact">Volunteering</a></li>
               <li><a href="#contact">Blog</a></li>
             </ul>
           </div>

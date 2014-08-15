@@ -8873,10 +8873,17 @@ a:hover {
 
 /* line 29, ../../sass/home/_home-header.scss */
 .navbar-inverse .navbar-brand {
-  color: #ff6700;
+  color: #000;
+  font-size: 3em;
+}
+/* line 32, ../../sass/home/_home-header.scss */
+.navbar-inverse .navbar-brand img {
+  width: 45px;
+  margin-top: -7px;
+  margin-right: 5px;
 }
 
-/* line 34, ../../sass/home/_home-header.scss */
+/* line 40, ../../sass/home/_home-header.scss */
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
   color: #5f391f;
@@ -8886,42 +8893,45 @@ a:hover {
 /* line 2, ../../sass/home/_home-page.scss */
 .background1 {
   background-color: #313233;
+  background: url(../images/bg-running.jpg);
+  background-size: cover;
   border-top: 2px solid #5f391f;
 }
 
-/* line 7, ../../sass/home/_home-page.scss */
+/* line 9, ../../sass/home/_home-page.scss */
 .background2 {
   background: #fff;
   border-bottom: 1px solid #000;
 }
 
-/* line 12, ../../sass/home/_home-page.scss */
+/* line 14, ../../sass/home/_home-page.scss */
 .background-image {
   padding: 25px 0;
-  background: url(../images/example-background.jpg);
+  background-color: #313233;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
+  background-size: cover;
 }
 
-/* line 19, ../../sass/home/_home-page.scss */
+/* line 22, ../../sass/home/_home-page.scss */
 .main-message {
   color: white;
-  padding-top: 150px;
+  padding-top: 25px;
   padding-right: 0;
 }
-/* line 24, ../../sass/home/_home-page.scss */
+/* line 27, ../../sass/home/_home-page.scss */
 .main-message h1 {
   font-size: 4em;
   text-transform: uppercase;
 }
-/* line 28, ../../sass/home/_home-page.scss */
+/* line 31, ../../sass/home/_home-page.scss */
 .main-message hr {
   border-top: 5px solid #1c8302;
   width: 100%;
   position: relative;
   margin-bottom: 0;
 }
-/* line 35, ../../sass/home/_home-page.scss */
+/* line 38, ../../sass/home/_home-page.scss */
 .main-message img {
   width: 111px;
   position: absolute;
@@ -8929,22 +8939,22 @@ a:hover {
   color: #5f391f;
 }
 
-/* line 43, ../../sass/home/_home-page.scss */
+/* line 46, ../../sass/home/_home-page.scss */
 .event-section {
   background-color: #fff;
   padding-left: 0;
   padding-right: 0;
 }
-/* line 47, ../../sass/home/_home-page.scss */
+/* line 50, ../../sass/home/_home-page.scss */
 .event-section h2 {
   margin: 0;
   padding: 20px 0 0 20px;
 }
-/* line 51, ../../sass/home/_home-page.scss */
+/* line 54, ../../sass/home/_home-page.scss */
 .event-section img {
   vertical-align: top;
 }
-/* line 54, ../../sass/home/_home-page.scss */
+/* line 57, ../../sass/home/_home-page.scss */
 .event-section span {
   font-size: 1em;
   font-weight: 500;
@@ -8952,42 +8962,42 @@ a:hover {
   display: inline-block;
   margin-bottom: 5px;
 }
-/* line 62, ../../sass/home/_home-page.scss */
+/* line 65, ../../sass/home/_home-page.scss */
 .event-section p {
   font-size: 1.3em;
   font-weight: 600;
 }
 
-/* line 68, ../../sass/home/_home-page.scss */
+/* line 71, ../../sass/home/_home-page.scss */
 .event-header {
   padding: 0;
   margin: 0;
 }
-/* line 71, ../../sass/home/_home-page.scss */
+/* line 74, ../../sass/home/_home-page.scss */
 .event-header h2 {
   background-color: #1c8302;
   color: #fff;
 }
 
-/* line 77, ../../sass/home/_home-page.scss */
+/* line 80, ../../sass/home/_home-page.scss */
 .event-list {
   padding: 20px 20px 0 20px;
   list-style: none;
 }
-/* line 81, ../../sass/home/_home-page.scss */
+/* line 84, ../../sass/home/_home-page.scss */
 .event-list li {
   height: 125px;
   margin-bottom: 2em;
   position: relative;
   border-bottom: 1px solid #5f391f;
 }
-/* line 87, ../../sass/home/_home-page.scss */
+/* line 90, ../../sass/home/_home-page.scss */
 .event-list img {
   float: left;
   margin-right: 1em;
 }
 
-/* line 95, ../../sass/home/_home-page.scss */
+/* line 98, ../../sass/home/_home-page.scss */
 .more a {
   float: right;
   text-transform: uppercase;
@@ -8997,7 +9007,7 @@ a:hover {
   padding-right: 5%;
 }
 
-/* line 104, ../../sass/home/_home-page.scss */
+/* line 107, ../../sass/home/_home-page.scss */
 .news-header {
   background: #1c8302;
   color: #fff;
@@ -9005,7 +9015,7 @@ a:hover {
   margin: 0;
 }
 
-/* line 111, ../../sass/home/_home-page.scss */
+/* line 114, ../../sass/home/_home-page.scss */
 .news-section {
   background-color: #1d1e1f;
   padding: 0 0 50px;
@@ -9013,16 +9023,16 @@ a:hover {
   position: relative;
   padding-bottom: 0;
 }
-/* line 118, ../../sass/home/_home-page.scss */
+/* line 121, ../../sass/home/_home-page.scss */
 .news-section h2 {
   margin: 0;
   padding: 20px 0 0 20px;
 }
-/* line 122, ../../sass/home/_home-page.scss */
+/* line 125, ../../sass/home/_home-page.scss */
 .news-section img {
   vertical-align: top;
 }
-/* line 125, ../../sass/home/_home-page.scss */
+/* line 128, ../../sass/home/_home-page.scss */
 .news-section span {
   font-size: 1em;
   font-weight: 500;
@@ -9030,34 +9040,34 @@ a:hover {
   display: inline-block;
   margin-bottom: 5px;
 }
-/* line 133, ../../sass/home/_home-page.scss */
+/* line 136, ../../sass/home/_home-page.scss */
 .news-section p {
   margin-top: -5px;
   font-size: 1.3em;
   font-weight: 600;
   color: #fff;
 }
-/* line 141, ../../sass/home/_home-page.scss */
+/* line 144, ../../sass/home/_home-page.scss */
 .news-section .articles {
   padding: 20px 20px 0 20px;
   list-style: none;
   margin-bottom: 0;
 }
-/* line 146, ../../sass/home/_home-page.scss */
+/* line 149, ../../sass/home/_home-page.scss */
 .news-section .articles li {
   height: 130px;
   padding-top: 15px;
 }
-/* line 151, ../../sass/home/_home-page.scss */
+/* line 154, ../../sass/home/_home-page.scss */
 .news-section .articles li img {
   float: left;
   margin-right: 1em;
 }
-/* line 156, ../../sass/home/_home-page.scss */
+/* line 159, ../../sass/home/_home-page.scss */
 .news-section .articles li + li {
   border-top: 1px solid #1c8302;
 }
-/* line 163, ../../sass/home/_home-page.scss */
+/* line 166, ../../sass/home/_home-page.scss */
 .news-section .more a {
   text-transform: uppercase;
   text-align: right;
@@ -9067,51 +9077,51 @@ a:hover {
   background: #000;
 }
 
-/* line 174, ../../sass/home/_home-page.scss */
+/* line 177, ../../sass/home/_home-page.scss */
 .more-info {
   padding: 0 0 50px;
   margin: 80px 0;
 }
-/* line 179, ../../sass/home/_home-page.scss */
+/* line 182, ../../sass/home/_home-page.scss */
 .more-info p {
   height: 71px;
   font-family: "MuseoSlab-300","Palatino Linotype","Book Antiqua",Palatino,serif;
 }
 
-/* line 187, ../../sass/home/_home-page.scss */
+/* line 190, ../../sass/home/_home-page.scss */
 .projects {
   border: 1px solid #000;
   background: #000;
   margin-left: 30px;
   padding: 40px 20px;
 }
-/* line 193, ../../sass/home/_home-page.scss */
+/* line 196, ../../sass/home/_home-page.scss */
 .projects hr {
   margin: 10px 0;
   border-top: 2px solid #1c8302;
   width: 100%;
   position: relative;
 }
-/* line 200, ../../sass/home/_home-page.scss */
+/* line 203, ../../sass/home/_home-page.scss */
 .projects h3 {
   margin-top: 0;
   color: white;
   font-size: 1.875em;
 }
-/* line 206, ../../sass/home/_home-page.scss */
+/* line 209, ../../sass/home/_home-page.scss */
 .projects img {
   float: left;
   margin-right: 15px;
 }
 
-/* line 220, ../../sass/home/_home-page.scss */
+/* line 223, ../../sass/home/_home-page.scss */
 .more-projects {
   background: #1d1e1f;
   height: 40px;
   text-align: right;
   margin-left: 30px;
 }
-/* line 226, ../../sass/home/_home-page.scss */
+/* line 229, ../../sass/home/_home-page.scss */
 .more-projects a {
   text-transform: uppercase;
   display: inline-block;
@@ -9119,7 +9129,7 @@ a:hover {
   padding-right: 5%;
 }
 
-/* line 236, ../../sass/home/_home-page.scss */
+/* line 239, ../../sass/home/_home-page.scss */
 .obstacle-section h1 {
   font-size: 3.5em;
   color: #fff;
@@ -9127,12 +9137,12 @@ a:hover {
   margin-top: 0;
 }
 
-/* line 245, ../../sass/home/_home-page.scss */
+/* line 248, ../../sass/home/_home-page.scss */
 .obstacle-info {
   text-align: center;
 }
 
-/* line 250, ../../sass/home/_home-page.scss */
+/* line 253, ../../sass/home/_home-page.scss */
 .obstacle-details {
   padding: 15px 20px 0 20px;
   margin-bottom: 20px;
@@ -9142,11 +9152,11 @@ a:hover {
   width: 50%;
   float: right;
 }
-/* line 259, ../../sass/home/_home-page.scss */
+/* line 262, ../../sass/home/_home-page.scss */
 .obstacle-details p {
   font-family: "MuseoSlab-300","Palatino Linotype","Book Antiqua",Palatino,serif;
 }
-/* line 263, ../../sass/home/_home-page.scss */
+/* line 266, ../../sass/home/_home-page.scss */
 .obstacle-details a {
   text-transform: uppercase;
   display: inline-block;
@@ -9155,50 +9165,50 @@ a:hover {
   float: right;
 }
 
-/* line 275, ../../sass/home/_home-page.scss */
+/* line 278, ../../sass/home/_home-page.scss */
 .footer-background {
   color: #000;
 }
 
-/* line 281, ../../sass/home/_home-page.scss */
+/* line 284, ../../sass/home/_home-page.scss */
 .footer-content ul {
   list-style: none;
   padding: 25px 0;
   margin: 0;
 }
-/* line 287, ../../sass/home/_home-page.scss */
+/* line 290, ../../sass/home/_home-page.scss */
 .footer-content li {
   margin: 0 2px;
   display: inline-block;
 }
-/* line 291, ../../sass/home/_home-page.scss */
+/* line 294, ../../sass/home/_home-page.scss */
 .footer-content li + li {
   border-left: 1px solid #000;
   padding-left: 6px;
 }
-/* line 297, ../../sass/home/_home-page.scss */
+/* line 300, ../../sass/home/_home-page.scss */
 .footer-content i {
   font-size: 20px;
   padding: 0 5px;
 }
 
-/* line 304, ../../sass/home/_home-page.scss */
+/* line 307, ../../sass/home/_home-page.scss */
 .social-links {
   float: right;
 }
 
-/* line 308, ../../sass/home/_home-page.scss */
+/* line 311, ../../sass/home/_home-page.scss */
 .created-by {
   background: #000;
   padding: 10px;
   border-top: 4px solid #1c8302;
   font-family: helvetica sans-serif;
 }
-/* line 314, ../../sass/home/_home-page.scss */
+/* line 317, ../../sass/home/_home-page.scss */
 .created-by p {
   color: #fff;
 }
-/* line 318, ../../sass/home/_home-page.scss */
+/* line 321, ../../sass/home/_home-page.scss */
 .created-by a {
   text-transform: uppercase;
   display: inline-block;

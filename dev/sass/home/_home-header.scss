@@ -27,7 +27,13 @@
 }
 
 .navbar-inverse .navbar-brand {
-  color: #ff6700;
+  color: #000;
+  font-size: 3em;
+  img{
+    width: 45px;
+    margin-top: -7px;
+    margin-right: 5px;
+  }
 }
 
 .navbar-inverse .navbar-brand:hover,

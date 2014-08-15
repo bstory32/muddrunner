@@ -57,7 +57,6 @@
 
     <div class="created-by">
       <div class="container">
-        <p>Built by Neil Sammons</p>
         <a href="#">Tech 5 Designs</a>
         <p class="pull-right"><a href="#">Back to top</a></p>
       </div>
