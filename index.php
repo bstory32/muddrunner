@@ -14,33 +14,34 @@
         </div>
         <ul class="event-list">
           <li>
-            <img src="public/images/photos/event1.jpg" alt="">
-            <span>August 9 &amp 10, 2014</span>
-            <p>Portland</p>
-            <a href="#">95% Sold Out - Register >></a>
+            <img src="public/images/clean_up_2.jpg">
+            <span>September 20, 2014</span>
+            <p>Trail Clean Up - Sternes Woods</p>
+            <a href="http://ultrasignup.com/">Register >></a>
+          </li>
+          <li>
+            <img src="public/images/photos/event4.jpg" alt="">
+            <span>January 10, 2015</span>
+            <p>Frozen Gnome 50k/10k</p>
+            <a href="http://ultrasignup.com/">Register >></a>
 
           </li>
-          <li>
-            <img src="public/images/photos/event2.jpg">
-            <span>August 16 &amp 17, 2014</span>
-            <p>Pittsburgh/Ohio Valley</p>
-            <a href="#">95% Sold Out - Register >></a>
-          </li>
+          
           <li>
             <img src="public/images/photos/event3.jpg">
-            <span>August 16 &amp 17, 2014</span>
-            <p>Tahoe</p>
-            <a href="">Register >></a>
+            <span>April 18, 2015</span>
+            <p>Earth Day 50k/15k/5k</p>
+            <a href="http://ultrasignup.com/">Register >></a>
           </li>
-          <li>
+          <!-- <li>
             <img src="public/images/photos/event4.jpg">
             <span>August 16 &amp 17, 2014</span>
             <p>Toronto</p>
             <a href="#">Register >></a>
-          </li>
+          </li> -->
         </ul>
         <div class="more">
-          <a href="#">View all Events >></a>
+          <a href="http://ultrasignup.com/">View all Events >></a>
         </div>
       </div>
 
@@ -60,13 +61,17 @@
 <div class="background-image">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 obstacle-section">
-        <div class="obstacle-info">
+      <div class="col-sm-12 sponsors-section">
+        <div class="sponsors-info">
           <h1>Our Sponsors</h1>
         </div>
-        <div class="obstacle-details">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet inventore vitae, architecto exercitationem. Tenetur necessitatibus repellat dolorum alias magnam aliquid nisi molestias, et id rem ducimus ea sed porro deleniti!</p>
-          <a href="#">See All >></a>
+        <div class="sponsors-details">
+          <ul>
+            <li><a href="#"><img src="public/images/sponsors/inov.png" alt=""></a></li>
+            <li><a href="#"><img src="public/images/sponsors/enjoy-illinois.png" alt=""></a></li>
+            <li><a href="#"><img src="public/images/sponsors/running-depot.png" alt=""></a></li>
+            <li><a href="#"><img src="public/images/sponsors/trails-for-illinois.png" alt=""></a></li>
+          </ul>
         </div>
       </div>
     </div>
