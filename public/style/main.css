@@ -9236,6 +9236,24 @@ blockquote {
   display: inline-block;
 }
 
+@media (max-width: 1200px) {
+  /* line 342, ../../sass/home/_home-page.scss */
+  .sponsors-details li {
+    width: 24%;
+  }
+}
+@media (max-width: 991px) {
+  /* line 351, ../../sass/home/_home-page.scss */
+  .event-section .coming-soon {
+    font-size: .9em;
+  }
+}
+@media (max-width: 443px) {
+  /* line 359, ../../sass/home/_home-page.scss */
+  .sponsors-details ul {
+    padding: 0;
+  }
+}
 /* line 1, ../../sass/content/_content-header.scss */
 .title-section {
   background: #313233;

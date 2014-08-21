@@ -70,7 +70,7 @@
     font-weight: 300;
     color: #000;
     font-size: 1em;
-    
+
   }
 }
 
@@ -335,6 +335,31 @@
     display: inline-block;
   }
 
+}
+
+@media (max-width: 1200px) {
+  .sponsors-details{
+    li{
+      width: 24%;
+      
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .event-section{
+    .coming-soon{
+      font-size: .9em;
+    }
+  }
+}
+
+@media (max-width: 443px) {
+  .sponsors-details{
+    ul{
+      padding: 0;
+    }
+  }
 }
 
 
