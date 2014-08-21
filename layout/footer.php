@@ -57,7 +57,7 @@
 
     <div class="created-by">
       <div class="container">
-        <a href="#"><img src="public/images/tech5_light.png" alt=""></a>
+        <!-- <a href="#"> --><img src="public/images/tech5_light.png" alt=""><!-- </a> -->
         <!-- <p class="pull-right"><a href="#">Back to top</a></p> -->
       </div>
     </div>
