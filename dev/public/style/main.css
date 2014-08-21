@@ -9264,27 +9264,28 @@ blockquote {
 .about-details img {
   float: left;
   margin: 10px 15px;
+  max-width: 300px;
 }
-/* line 20, ../../sass/content/_content-body.scss */
+/* line 21, ../../sass/content/_content-body.scss */
 .about-details p {
   margin: 10px 0;
 }
 
-/* line 26, ../../sass/content/_content-body.scss */
+/* line 27, ../../sass/content/_content-body.scss */
 .additional-info {
   background: #313233;
   padding: 25px 0;
 }
-/* line 30, ../../sass/content/_content-body.scss */
+/* line 31, ../../sass/content/_content-body.scss */
 .additional-info h3 {
   color: #fff;
   text-align: center;
 }
-/* line 35, ../../sass/content/_content-body.scss */
+/* line 36, ../../sass/content/_content-body.scss */
 .additional-info p {
   color: #eee;
 }
-/* line 39, ../../sass/content/_content-body.scss */
+/* line 40, ../../sass/content/_content-body.scss */
 .additional-info ul {
   color: #fff;
   margin-left: 12em;

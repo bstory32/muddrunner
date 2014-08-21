@@ -25,7 +25,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<img src="http://placehold.it/300x200" alt="">
+					<img src="public/images/clean_up_good_tim.JPG" alt="">
 					<p>The club was started in May of 2010 with a dream and a little work from Michele Hartwig, Karen Shearer and Holly Bochantin and a lot of love from all our trail loving friends.</p>
 
 

@@ -25,7 +25,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<img src="http://placehold.it/300x200" alt="">
+					<img src="public/images/clean_up_scott_kids.JPG" alt="">
 					<p>MUDD has a strong volunteer program. Every 5-8 weeks, year round, we host trail clean up days at Sternes Woods in Crystal Lake, IL. We work with the Crystal Lake Park District on wetland restoration as well as keeping the running trails clean and clear. Many runners have earned their volunteer hours for races like Western States 100 in our program. We have fun while giving back to our community.</p>
 				</div>
 			</div>
