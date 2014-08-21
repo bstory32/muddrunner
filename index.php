@@ -17,13 +17,16 @@
             <img src="public/images/clean_up_2.jpg">
             <span>September 20, 2014</span>
             <p>Trail Clean Up - Sternes Woods</p>
-            <a href="http://ultrasignup.com/">Register >></a>
+            <!-- <a href="http://ultrasignup.com/">Register >></a> -->
+
+            <p class="coming-soon">Registration Coming Soon</p>
           </li>
           <li>
             <img src="public/images/photos/event4.jpg" alt="">
             <span>January 10, 2015</span>
             <p>Frozen Gnome 50k/10k</p>
-            <a href="http://ultrasignup.com/">Register >></a>
+            <!-- <a href="http://ultrasignup.com/">Register >></a> -->
+            <p class="coming-soon">Registration Coming Soon</p>
 
           </li>
           
@@ -31,7 +34,8 @@
             <img src="public/images/photos/event3.jpg">
             <span>April 18, 2015</span>
             <p>Earth Day 50k/15k/5k</p>
-            <a href="http://ultrasignup.com/">Register >></a>
+            <!-- <a href="http://ultrasignup.com/">Register >></a> -->
+            <p class="coming-soon">Registration Coming Soon</p>
           </li>
           <!-- <li>
             <img src="public/images/photos/event4.jpg">
@@ -67,10 +71,10 @@
         </div>
         <div class="sponsors-details">
           <ul>
-            <li><a href="#"><img src="public/images/sponsors/inov.png" alt=""></a></li>
-            <li><a href="#"><img src="public/images/sponsors/enjoy-illinois.png" alt=""></a></li>
-            <li><a href="#"><img src="public/images/sponsors/running-depot.png" alt=""></a></li>
-            <li><a href="#"><img src="public/images/sponsors/trails-for-illinois.png" alt=""></a></li>
+            <li><!-- <a href="#"> --><img src="public/images/sponsors/inov.png" alt=""><!-- </a> --></li>
+            <li><!-- <a href="#"> --><img src="public/images/sponsors/enjoy-illinois.png" alt=""><!-- </a> --></li>
+            <li><!-- <a href="#"> --><img src="public/images/sponsors/running-depot.png" alt=""><!-- </a> --></li>
+            <li><!-- <a href="#"> --><img src="public/images/sponsors/trails-for-illinois.png" alt=""><!-- </a> --></li>
           </ul>
         </div>
       </div>

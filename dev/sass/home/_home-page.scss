@@ -66,6 +66,12 @@
     font-size: 1.3em;
     font-weight: 600;
   }
+  .coming-soon{
+    font-weight: 300;
+    color: #000;
+    font-size: 1em;
+    
+  }
 }
 
 .event-header {
@@ -85,7 +91,7 @@
     height: 135px;
     
     padding-top: 20px;
-        
+
 
     &+li{
       border-top: 1px solid $primary;
@@ -319,8 +325,9 @@
   border-top: 4px solid $secondary;
   font-family: helvetica sans-serif;
 
-  p{
-    color: #fff;
+  img{
+    height: auto;
+    width: 175px;
   }
 
   a{
@@ -329,6 +336,8 @@
   }
 
 }
+
+
 
 
 

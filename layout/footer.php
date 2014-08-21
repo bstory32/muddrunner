@@ -13,24 +13,24 @@
                 <li>
                   <a href="#">About Us</a>
                 </li>
-                <li>
+                <!-- <li>
                   <a href="#">Race Calendar</a>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                   <a href="#">Trails</a>
-                </li>
+                </li> -->
                 <li>
                   <a href="#">Volunteering</a>
                 </li>
-                <li>
+                <!-- <li>
                   <a href="#">Blog</a>
-                </li>
+                </li> -->
               </ul>
             </div>
 
             <div class="col-sm-6">
               <div>
-                <ul class="social-links">
+                <!-- <ul class="social-links">
                   <li>
                     <a href="#"><i class="fa fa-facebook-square"></i></a>
                   </li>
@@ -46,7 +46,7 @@
                   <li>
                     <a href="#"><i class="fa fa-pinterest-square"></i></a>
                   </li>
-                </ul>
+                </ul> -->
               </div>
             </div>
 
@@ -57,8 +57,8 @@
 
     <div class="created-by">
       <div class="container">
-        <a href="#">Tech 5 Designs</a>
-        <p class="pull-right"><a href="#">Back to top</a></p>
+        <a href="#"><img src="public/images/tech5_light.png" alt=""></a>
+        <!-- <p class="pull-right"><a href="#">Back to top</a></p> -->
       </div>
     </div>
 
