@@ -40,9 +40,9 @@
             <a href="#">Register >></a>
           </li> -->
         </ul>
-        <div class="more">
+        <!-- <div class="more">
           <a href="http://ultrasignup.com/">View all Events >></a>
-        </div>
+        </div> -->
       </div>
 
       <div class="col-sm-6 main-message">
@@ -82,7 +82,7 @@
 
 <!-- start of news section -->
 
-<div class="background2">
+<!-- <div class="background2">
   <div class="container">
     <div class="row">
       <div class="col-sm-6 news-section">
@@ -112,13 +112,13 @@
         <div class="more">
           <a href="#">See all news >></a>
         </div>
-      </div>
+      </div> -->
 
       <!-- end of new section -->
 
       <!-- start of projects section -->
 
-      <div class="col-sm-6 more-info">
+      <!-- <div class="col-sm-6 more-info">
         <div class="projects">
           <h3>Mudd Project</h3>
           <hr class="blue">
@@ -142,7 +142,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- end of projects section -->
 

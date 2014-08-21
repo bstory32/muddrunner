@@ -78,21 +78,24 @@
 }
 
 .event-list {
-  padding: 20px 20px 0 20px;
+  padding: 0px 20px 0 20px;
   list-style: none;
 
   li{
-    height: 125px;
-    margin-bottom: 2em;
-    position: relative;
-    border-bottom: 1px solid $primary;    
+    height: 135px;
+    
+    padding-top: 20px;
+        
+
+    &+li{
+      border-top: 1px solid $primary;
+    }
   }
-  img{
+  img {
     float: left;
     margin-right: 1em;
-    height: auto;
-    width: 12em;
-
+    height: 94px;
+    width: 150px;
   }
 
 

@@ -8814,6 +8814,18 @@ button.close {
   background-color: #fc6220;
 }
 
+/* line 17, ../../sass/share/_variables.scss */
+.btn-secondary {
+  color: #fff;
+  background-color: #1c8302;
+  border: 0;
+}
+/* line 21, ../../sass/share/_variables.scss */
+.btn-secondary:hover {
+  background-color: #1c8302;
+  color: #fff;
+}
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -8827,7 +8839,7 @@ body {
 
 /* line 13, ../../sass/share/_body.scss */
 h1, h2, h3, h4 {
-  font-family: "ToughMudder",Impact,Charcoal,sans-serif;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 /* line 17, ../../sass/share/_body.scss */
@@ -8837,6 +8849,14 @@ a {
 /* line 20, ../../sass/share/_body.scss */
 a:hover {
   color: #d25a1c;
+}
+
+/* line 26, ../../sass/share/_body.scss */
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border: none;
 }
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
@@ -8981,25 +9001,27 @@ a:hover {
 
 /* line 80, ../../sass/home/_home-page.scss */
 .event-list {
-  padding: 20px 20px 0 20px;
+  padding: 0px 20px 0 20px;
   list-style: none;
 }
 /* line 84, ../../sass/home/_home-page.scss */
 .event-list li {
-  height: 125px;
-  margin-bottom: 2em;
-  position: relative;
-  border-bottom: 1px solid #5f391f;
+  height: 135px;
+  padding-top: 20px;
 }
 /* line 90, ../../sass/home/_home-page.scss */
+.event-list li + li {
+  border-top: 1px solid #5f391f;
+}
+/* line 94, ../../sass/home/_home-page.scss */
 .event-list img {
   float: left;
   margin-right: 1em;
-  height: auto;
-  width: 12em;
+  height: 94px;
+  width: 150px;
 }
 
-/* line 101, ../../sass/home/_home-page.scss */
+/* line 104, ../../sass/home/_home-page.scss */
 .more a {
   float: right;
   text-transform: uppercase;
@@ -9009,7 +9031,7 @@ a:hover {
   padding-right: 5%;
 }
 
-/* line 110, ../../sass/home/_home-page.scss */
+/* line 113, ../../sass/home/_home-page.scss */
 .news-header {
   background: #1c8302;
   color: #fff;
@@ -9017,7 +9039,7 @@ a:hover {
   margin: 0;
 }
 
-/* line 117, ../../sass/home/_home-page.scss */
+/* line 120, ../../sass/home/_home-page.scss */
 .news-section {
   background-color: #1d1e1f;
   padding: 0 0 50px;
@@ -9025,16 +9047,16 @@ a:hover {
   position: relative;
   padding-bottom: 0;
 }
-/* line 124, ../../sass/home/_home-page.scss */
+/* line 127, ../../sass/home/_home-page.scss */
 .news-section h2 {
   margin: 0;
   padding: 20px 0 0 20px;
 }
-/* line 128, ../../sass/home/_home-page.scss */
+/* line 131, ../../sass/home/_home-page.scss */
 .news-section img {
   vertical-align: top;
 }
-/* line 131, ../../sass/home/_home-page.scss */
+/* line 134, ../../sass/home/_home-page.scss */
 .news-section span {
   font-size: 1em;
   font-weight: 500;
@@ -9042,34 +9064,34 @@ a:hover {
   display: inline-block;
   margin-bottom: 5px;
 }
-/* line 139, ../../sass/home/_home-page.scss */
+/* line 142, ../../sass/home/_home-page.scss */
 .news-section p {
   margin-top: -5px;
   font-size: 1.3em;
   font-weight: 600;
   color: #fff;
 }
-/* line 147, ../../sass/home/_home-page.scss */
+/* line 150, ../../sass/home/_home-page.scss */
 .news-section .articles {
   padding: 20px 20px 0 20px;
   list-style: none;
   margin-bottom: 0;
 }
-/* line 152, ../../sass/home/_home-page.scss */
+/* line 155, ../../sass/home/_home-page.scss */
 .news-section .articles li {
   height: 130px;
   padding-top: 15px;
 }
-/* line 157, ../../sass/home/_home-page.scss */
+/* line 160, ../../sass/home/_home-page.scss */
 .news-section .articles li img {
   float: left;
   margin-right: 1em;
 }
-/* line 162, ../../sass/home/_home-page.scss */
+/* line 165, ../../sass/home/_home-page.scss */
 .news-section .articles li + li {
   border-top: 1px solid #1c8302;
 }
-/* line 169, ../../sass/home/_home-page.scss */
+/* line 172, ../../sass/home/_home-page.scss */
 .news-section .more a {
   text-transform: uppercase;
   text-align: right;
@@ -9079,51 +9101,51 @@ a:hover {
   background: #000;
 }
 
-/* line 180, ../../sass/home/_home-page.scss */
+/* line 183, ../../sass/home/_home-page.scss */
 .more-info {
   padding: 0 0 50px;
   margin: 80px 0;
 }
-/* line 185, ../../sass/home/_home-page.scss */
+/* line 188, ../../sass/home/_home-page.scss */
 .more-info p {
   height: 71px;
   font-family: "MuseoSlab-300","Palatino Linotype","Book Antiqua",Palatino,serif;
 }
 
-/* line 193, ../../sass/home/_home-page.scss */
+/* line 196, ../../sass/home/_home-page.scss */
 .projects {
   border: 1px solid #000;
   background: #000;
   margin-left: 30px;
   padding: 40px 20px;
 }
-/* line 199, ../../sass/home/_home-page.scss */
+/* line 202, ../../sass/home/_home-page.scss */
 .projects hr {
   margin: 10px 0;
   border-top: 2px solid #1c8302;
   width: 100%;
   position: relative;
 }
-/* line 206, ../../sass/home/_home-page.scss */
+/* line 209, ../../sass/home/_home-page.scss */
 .projects h3 {
   margin-top: 0;
   color: white;
   font-size: 1.875em;
 }
-/* line 212, ../../sass/home/_home-page.scss */
+/* line 215, ../../sass/home/_home-page.scss */
 .projects img {
   float: left;
   margin-right: 15px;
 }
 
-/* line 226, ../../sass/home/_home-page.scss */
+/* line 229, ../../sass/home/_home-page.scss */
 .more-projects {
   background: #1d1e1f;
   height: 40px;
   text-align: right;
   margin-left: 30px;
 }
-/* line 232, ../../sass/home/_home-page.scss */
+/* line 235, ../../sass/home/_home-page.scss */
 .more-projects a {
   text-transform: uppercase;
   display: inline-block;
@@ -9131,7 +9153,7 @@ a:hover {
   padding-right: 5%;
 }
 
-/* line 242, ../../sass/home/_home-page.scss */
+/* line 245, ../../sass/home/_home-page.scss */
 .sponsors-section h1 {
   font-size: 3.5em;
   color: #fff;
@@ -9139,69 +9161,69 @@ a:hover {
   margin-top: 0;
 }
 
-/* line 253, ../../sass/home/_home-page.scss */
+/* line 256, ../../sass/home/_home-page.scss */
 .sponsors-info {
   text-align: center;
 }
 
-/* line 260, ../../sass/home/_home-page.scss */
+/* line 263, ../../sass/home/_home-page.scss */
 .sponsors-details ul {
   list-style: none;
 }
-/* line 265, ../../sass/home/_home-page.scss */
+/* line 268, ../../sass/home/_home-page.scss */
 .sponsors-details li {
   display: inline-block;
   padding: 20px 10px;
 }
-/* line 270, ../../sass/home/_home-page.scss */
+/* line 273, ../../sass/home/_home-page.scss */
 .sponsors-details img {
   width: 75%;
 }
 
-/* line 280, ../../sass/home/_home-page.scss */
+/* line 283, ../../sass/home/_home-page.scss */
 .footer-background {
   color: #000;
 }
 
-/* line 286, ../../sass/home/_home-page.scss */
+/* line 289, ../../sass/home/_home-page.scss */
 .footer-content ul {
   list-style: none;
   padding: 25px 0;
   margin: 0;
 }
-/* line 292, ../../sass/home/_home-page.scss */
+/* line 295, ../../sass/home/_home-page.scss */
 .footer-content li {
   margin: 0 2px;
   display: inline-block;
 }
-/* line 296, ../../sass/home/_home-page.scss */
+/* line 299, ../../sass/home/_home-page.scss */
 .footer-content li + li {
   border-left: 1px solid #000;
   padding-left: 6px;
 }
-/* line 302, ../../sass/home/_home-page.scss */
+/* line 305, ../../sass/home/_home-page.scss */
 .footer-content i {
   font-size: 20px;
   padding: 0 5px;
 }
 
-/* line 309, ../../sass/home/_home-page.scss */
+/* line 312, ../../sass/home/_home-page.scss */
 .social-links {
   float: right;
 }
 
-/* line 313, ../../sass/home/_home-page.scss */
+/* line 316, ../../sass/home/_home-page.scss */
 .created-by {
   background: #000;
   padding: 10px;
   border-top: 4px solid #1c8302;
   font-family: helvetica sans-serif;
 }
-/* line 319, ../../sass/home/_home-page.scss */
+/* line 322, ../../sass/home/_home-page.scss */
 .created-by p {
   color: #fff;
 }
-/* line 323, ../../sass/home/_home-page.scss */
+/* line 326, ../../sass/home/_home-page.scss */
 .created-by a {
   text-transform: uppercase;
   display: inline-block;
@@ -9256,8 +9278,19 @@ a:hover {
 /* line 30, ../../sass/content/_content-body.scss */
 .additional-info h3 {
   color: #fff;
+  text-align: center;
 }
-/* line 34, ../../sass/content/_content-body.scss */
+/* line 35, ../../sass/content/_content-body.scss */
 .additional-info p {
   color: #eee;
+}
+/* line 39, ../../sass/content/_content-body.scss */
+.additional-info ul {
+  color: #fff;
+  margin-left: 12em;
+}
+
+/* line 1, ../../sass/about-us/_volunteering-section.scss */
+.volunteering-section {
+  text-align: center;
 }
