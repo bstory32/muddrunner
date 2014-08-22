@@ -8,10 +8,10 @@
             <div class="col-sm-6">
               <ul>
                 <li>
-                  <a href="#">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="#">About Us</a>
+                  <a href="about-us.php">About Us</a>
                 </li>
                 <!-- <li>
                   <a href="#">Race Calendar</a>
@@ -20,7 +20,7 @@
                   <a href="#">Trails</a>
                 </li> -->
                 <li>
-                  <a href="#">Volunteering</a>
+                  <a href="volunteering.php">Volunteering</a>
                 </li>
                 <!-- <li>
                   <a href="#">Blog</a>
