@@ -39,35 +39,8 @@
 
 	ul{
 		color: #fff;
-		margin-left: 12em;
-	}
-}
-
-
-@media (max-width: 1194px){
-	.additional-info{
-		ul{
-			display: inline-block;
-			margin-left: 8em;
-		}
-	}
-}
-
-@media (max-width: 991px){
-	.additional-info{
-		ul{
-			display: inline-block;
-			margin-left: 5em;
-		}
-	}
-}
-
-@media (max-width: 767px){
-	.additional-info{
-		ul{
-			display: inline-block;
-			margin-left: 5em;
-		}
+		margin: 0 auto;
+		width: 205px;
 	}
 }
 
@@ -88,3 +61,8 @@
 		}
 	}
 }
+
+
+
+
+
