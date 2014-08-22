@@ -36,12 +36,28 @@
   }
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border: 0;
+}
+
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
   color: $primary;
   background-color: transparent;
 }
 
+@media screen and (min-width:395px) and (max-width: 454px){
+  .navbar-inverse .navbar-brand{
+    font-size: 1.8em;
+  }
+}
+
+
+@media screen and (max-width: 394px){
+  .navbar-inverse .navbar-brand{
+    font-size: 1.6em;
+  }
+}
 
 
 

@@ -30,10 +30,17 @@
       <div class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-muddrunner-nav">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="index.php"><img src="public/images/photos/logo.png" alt=""><strong>MUDD</strong>RUNNER</a>
           </div>
-          <div class="navbar-collapse collapse navbar-right">
-            <ul class="nav navbar-nav">
+          <div class="navbar-collapse collapse" id="main-muddrunner-nav">
+            
+            <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="index.php">Home</a></li>
               <li><a href="about-us.php">About Us</a></li>
               <li><a href="volunteering.php">Volunteering</a></li>
@@ -45,3 +52,7 @@
         </div>
       </div>
     </div>
+    
+
+
+

@@ -4,7 +4,7 @@
 
 <!-- start of events section -->
 
-<div class="background1">
+<div class="upcoming-events">
   <div class="container">
     <div class="row">
 
@@ -49,11 +49,13 @@
         </div> -->
       </div>
 
-      <div class="col-sm-6 main-message">
-        <h1>I survived Frozen Gnome.</h1>
-        <hr>
-        <!-- <img src="public/images/splatter.png" alt=""> -->
-        <p>Photographed at <strong>Frozen Gnome</strong> by <em>Scott Laudick</em></p>
+      <div class="col-sm-6">
+        <div class="main-message">
+          <h1>I survived Frozen Gnome.</h1>
+          <hr>
+          <!-- <img src="public/images/splatter.png" alt=""> -->
+          <p>Photographed at <strong>Frozen Gnome</strong> by <em>Scott Laudick</em></p>
+        </div>
       </div>
     </div>
   </div>

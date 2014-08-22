@@ -43,3 +43,48 @@
 	}
 }
 
+
+@media (max-width: 1194px){
+	.additional-info{
+		ul{
+			display: inline-block;
+			margin-left: 8em;
+		}
+	}
+}
+
+@media (max-width: 991px){
+	.additional-info{
+		ul{
+			display: inline-block;
+			margin-left: 5em;
+		}
+	}
+}
+
+@media (max-width: 767px){
+	.additional-info{
+		ul{
+			display: inline-block;
+			margin-left: 5em;
+		}
+	}
+}
+
+
+
+@media (max-width: 520px){
+	.about-details{
+		img{
+			width: 200px;
+		}
+	}
+}
+
+@media (max-width: 400px){
+	.about-details{
+		img{
+			width: 150px;
+		}
+	}
+}
