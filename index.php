@@ -14,6 +14,12 @@
         </div>
         <ul class="event-list">
           <li>
+            <img src="public/images/hennepin_banner1.jpg">
+            <span>September 12 &amp 13, 2015</span>
+            <p>The Hennepin Hundred</p>
+            <p class="coming-soon">Registration Open Nov. 28</p>
+          </li>
+          <li>
             <img src="public/images/clean_up_2.jpg">
             <span>September 20, 2014</span>
             <p>Trail Clean Up - Sternes Woods</p>
@@ -37,12 +43,7 @@
             <!-- <a href="http://ultrasignup.com/">Register >></a> -->
             <p class="coming-soon">Registration Coming Soon</p>
           </li>
-          <!-- <li>
-            <img src="public/images/photos/event4.jpg">
-            <span>August 16 &amp 17, 2014</span>
-            <p>Toronto</p>
-            <a href="#">Register >></a>
-          </li> -->
+          
         </ul>
         <!-- <div class="more">
           <a href="http://ultrasignup.com/">View all Events >></a>
