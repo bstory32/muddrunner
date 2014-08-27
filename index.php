@@ -13,12 +13,7 @@
           <h2>UPCOMING EVENTS</h2>
         </div>
         <ul class="event-list">
-          <li>
-            <img src="public/images/hennepin_banner1.jpg">
-            <span>September 12 &amp 13, 2015</span>
-            <p>The Hennepin Hundred</p>
-            <p class="coming-soon">Registration Open Nov. 28</p>
-          </li>
+          
           <li>
             <img src="public/images/clean_up_2.jpg">
             <span>September 20, 2014</span>
@@ -42,6 +37,12 @@
             <p>Earth Day 50k/15k/5k</p>
             <!-- <a href="http://ultrasignup.com/">Register >></a> -->
             <p class="coming-soon">Registration Coming Soon</p>
+          </li>
+          <li>
+            <img src="public/images/hennepin_banner1.jpg">
+            <span>September 12 &amp 13, 2015</span>
+            <p>The Hennepin Hundred</p>
+            <p class="coming-soon">Registration Open Nov. 28</p>
           </li>
           
         </ul>
