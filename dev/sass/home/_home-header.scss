@@ -10,7 +10,7 @@
 
 .navbar-inverse {
   background: #ececec;
-  border-bottom: 4px solid $primary;
+  border-bottom: 6px solid $primary;
 }
 
 .navbar-inverse .navbar-collapse ul li a {
@@ -34,6 +34,10 @@
     margin-top: -7px;
     margin-right: 5px;
   }
+
+  @media screen and (max-width: 990px){
+    font-size: 1.5em;
+  }
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -45,6 +49,52 @@
   color: $primary;
   background-color: transparent;
 }
+
+.media-links{
+  float: right;
+}
+
+.social-media {
+  list-style: none;
+  position: absolute;
+  right: 30px;
+  top: 56px;
+  background: #5F391F;
+  border-radius: 0 0 15px 15px;
+  padding: 3px 23px;
+
+  @media screen and (max-width: 767px){
+    display: none;
+  }
+  p{
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFF;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px #000;
+  }
+  li{
+    display: inline-block;
+
+    margin-left: .5em;
+    i{
+      font-size: 2em;
+    }
+  }
+
+  a{
+    color: #fff;
+    &:hover{
+      color: #d25a1c;
+    }
+  }
+
+
+}
+
+
+
+
 
 @media screen and (min-width:395px) and (max-width: 454px){
   .navbar-inverse .navbar-brand{

@@ -13,38 +13,39 @@
           <h2>UPCOMING EVENTS</h2>
         </div>
         <ul class="event-list">
-          
+
           <li>
             <img src="public/images/clean_up_2.jpg">
-            <span>September 20, 2014</span>
+            <span>October 25, 2014</span>
             <p>Trail Clean Up - Sternes Woods</p>
-            <!-- <a href="http://ultrasignup.com/">Register >></a> -->
-
-            <p class="coming-soon">Registration Coming Soon</p>
+            <p class="mileage">Come Join the fun!</p>
+            <a href="https://www.facebook.com/events/619080978209490/" class="btn btn-secondary registration">Register</a>
           </li>
+
+          
           <li>
             <img src="public/images/photos/event4.jpg" alt="">
             <span>January 10, 2015</span>
-            <p>Frozen Gnome 50k/10k</p>
-            <!-- <a href="http://ultrasignup.com/">Register >></a> -->
-            <p class="coming-soon">Registration Coming Soon</p>
+            <p>Frozen Gnome</p>
+            <p class="mileage">50k/10k</p>
+            <a href="https://ultrasignup.com/register.aspx?did=29618" class="btn btn-secondary registration">Register</a>
 
           </li>
           
           <li>
             <img src="public/images/photos/event3.jpg">
             <span>April 18, 2015</span>
-            <p>Earth Day 50k/15k/5k</p>
-            <!-- <a href="http://ultrasignup.com/">Register >></a> -->
-            <p class="coming-soon">Registration Coming Soon</p>
+            <p>Earth Day</p>
+            <p class="mileage">50k/15k/5k</p>
+            <a href="https://ultrasignup.com/register.aspx?did=29669" class="btn btn-secondary registration">Register</a>
           </li>
           <li>
             <img src="public/images/hennepin_banner1.jpg">
             <span>September 12 &amp 13, 2015</span>
             <p>The Hennepin Hundred</p>
-            <p class="coming-soon">Registration Open Nov. 28</p>
+            <p class="mileage">100k/50k/100k Relay</p>
+            <a href="https://ultrasignup.com/register.aspx?did=29711" class="btn btn-secondary registration">Register <!-- Nov. 28 --></a>
           </li>
-          
         </ul>
         <!-- <div class="more">
           <a href="http://ultrasignup.com/">View all Events >></a>
@@ -53,7 +54,7 @@
 
       <div class="col-sm-6">
         <div class="main-message">
-          <h1>I survived Frozen Gnome.</h1>
+          <h1>TRAIN, COMPETE EDUCATE AND SERVE</h1>
           <hr>
           <!-- <img src="public/images/splatter.png" alt=""> -->
           <p>Photographed at <strong>Frozen Gnome</strong> by <em>Scott Laudick</em></p>
@@ -74,11 +75,14 @@
           <h1>Our Sponsors</h1>
         </div>
         <div class="sponsors-details">
-          <ul>
-            <li><!-- <a href="#"> --><img src="public/images/sponsors/inov.png" alt=""><!-- </a> --></li>
-            <li><!-- <a href="#"> --><img src="public/images/sponsors/enjoy-illinois.png" alt=""><!-- </a> --></li>
-            <li><!-- <a href="#"> --><img src="public/images/sponsors/running-depot.png" alt=""><!-- </a> --></li>
-            <li><!-- <a href="#"> --><img src="public/images/sponsors/trails-for-illinois.png" alt=""><!-- </a> --></li>
+          <ul id="owl-demo">
+            <li class="item"><a href="http://www.trailsforillinois.org/"><img src="public/images/sponsors/trails-for-illinois.png" alt=""></a></li>
+            <li class="item"><a href="www.visitquadcities.com"><img src="public/images/sponsors/Quad-Vertical-Color.jpg" alt=""></a></li>
+            <li class="item"><a href="http://www.inov-8.com/New/Global/Product-Catagory-Off-Road.asp?L=27"><img src="public/images/sponsors/inov.png" alt=""></a></li>
+            <li class="item"><a href="http://www.therunningdepot.com/"><img src="public/images/sponsors/running-depot.png" alt=""></a></li>
+            <li class="item"><a href="https://www.enjoyillinois.com/"><img src="public/images/sponsors/enjoy-illinois.png" alt=""></a></li>
+            
+
           </ul>
         </div>
       </div>
@@ -87,6 +91,24 @@
 </div>
 
 <!-- end of featured of obstacle -->
+
+
+<div class="mission-statement">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+       <h1>“The mission of MUDD Ultra-running Dudes and Dudettes is to
+        bring trail runners together for training, events, education and 
+        community service”</h1>
+        <hr>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 
 <!-- start of news section -->
 

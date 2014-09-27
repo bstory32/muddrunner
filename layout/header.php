@@ -10,6 +10,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+   <link href="public/style/owl.carousel.css" rel="stylesheet">
   <link href="public/style/main.css" rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="public/images/muddlogo.ico" />
@@ -43,15 +44,25 @@
             <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="index.php">Home</a></li>
               <li><a href="about-us.php">About Us</a></li>
-              <li><a href="volunteering.php">Volunteering</a></li>
+              <li><a href="volunteering.php">Volunteer/Stewardship</a></li>
               <!-- <li><a href="content-2col.php">Race Calendar</a></li> -->
               <!-- <li><a href="#contact">Trails</a></li> -->
               <!-- <li><a href="#contact">Blog</a></li> -->
+              
             </ul>
+  
+
           </div>
+          <ul class="social-media">
+            <p>Follow us:</p>
+            <li><a href="https://www.facebook.com/groups/MUDDUltrarunning/"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="https://twitter.com/TheHennepin100"><i class="fa fa-twitter-square"></i></a></li>
+          </ul>
         </div>
       </div>
     </div>
+
+    
     
 
 

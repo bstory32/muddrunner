@@ -1,18 +1,18 @@
 
-    <!-- FOOTER -->
-    <footer>
+<!-- FOOTER -->
+<footer>
 
-      <div class="footer-background">
-        <div class="container">
-          <div class="row footer-content">
-            <div class="col-sm-6">
-              <ul>
-                <li>
-                  <a href="/">Home</a>
-                </li>
-                <li>
-                  <a href="about-us.php">About Us</a>
-                </li>
+  <div class="footer-background">
+    <div class="container">
+      <div class="row footer-content">
+        <div class="col-sm-6">
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="about-us.php">About Us</a>
+            </li>
                 <!-- <li>
                   <a href="#">Race Calendar</a>
                 </li> -->
@@ -30,23 +30,14 @@
 
             <div class="col-sm-6">
               <div>
-                <!-- <ul class="social-links">
+                <ul class="social-links">
                   <li>
-                    <a href="#"><i class="fa fa-facebook-square"></i></a>
+                    <a href="https://www.facebook.com/groups/MUDDUltrarunning/"><i class="fa fa-facebook-square"></i></a>
                   </li>
                   <li>
-                    <a href="#"><i class="fa fa-twitter-square"></i></a>
+                    <a href="https://twitter.com/TheHennepin100"><i class="fa fa-twitter-square"></i></a>
                   </li>
-                  <li>
-                    <a href="#"><i class="fa fa-google-plus-square"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-pinterest-square"></i></a>
-                  </li>
-                </ul> -->
+                </ul>
               </div>
             </div>
 

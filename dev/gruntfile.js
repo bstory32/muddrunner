@@ -23,7 +23,7 @@ module.exports = function(grunt){
 		uglify:{
 			my_target:{
 				files:{
-					'public/js/scripts.js' : ['lib/jQuery/jquery-1.11.1.min.js','lib/bootstrap/js/bootstrap.min.js','js/**/*.js']
+					'public/js/scripts.js' : ['lib/jQuery/jquery-1.11.1.min.js','lib/bootstrap/js/bootstrap.min.js','lib/owlCarousel/owl-carousel/owl.carousel.js','js/**/*.js']
 				}//files
 			}//my targe
 		},//uglify
