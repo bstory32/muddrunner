@@ -27,7 +27,7 @@
             <img src="public/images/photos/event4.jpg" alt="">
             <span>January 10, 2015</span>
             <p>Frozen Gnome</p>
-            <p class="mileage">50k/10k</p
+            <p class="mileage">50k/10k</p>
             <a href="https://ultrasignup.com/register.aspx?did=29618" class="btn btn-secondary registration">Register</a>
 
           </li>
