@@ -48,7 +48,7 @@
 
     <div class="created-by">
       <div class="container">
-        <!-- <a href="#"> --><img src="public/images/tech5_light.png" alt=""><!-- </a> -->
+        <a href="http://tech5designs.com/" target="_blank"><img src="public/images/tech5_light.png" alt=""></a>
         <!-- <p class="pull-right"><a href="#">Back to top</a></p> -->
       </div>
     </div>

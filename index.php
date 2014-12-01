@@ -27,7 +27,7 @@
             <img src="public/images/photos/event4.jpg" alt="">
             <span>January 10, 2015</span>
             <p>Frozen Gnome</p>
-            <p class="mileage">50k/10k</p>
+            <p class="mileage">50k/10k</p
             <a href="https://ultrasignup.com/register.aspx?did=29618" class="btn btn-secondary registration">Register</a>
 
           </li>
@@ -36,7 +36,7 @@
             <img src="public/images/photos/event3.jpg">
             <span>April 18, 2015</span>
             <p>Earth Day</p>
-            <p class="mileage">50k/15k/5k</p>
+            <p class="mileage">50k/15 mile/5 mile</p>
             <a href="https://ultrasignup.com/register.aspx?did=29669" class="btn btn-secondary registration">Register</a>
           </li>
           <li>
