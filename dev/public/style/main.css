@@ -9015,7 +9015,7 @@ blockquote {
   position: relative;
   margin-bottom: 0;
 }
-/* line 37, ../../sass/home/_home-page.scss */
+/* line 36, ../../sass/home/_home-page.scss */
 .main-message img {
   width: 111px;
   position: absolute;
@@ -9259,20 +9259,29 @@ blockquote {
 }
 
 /* line 290, ../../sass/home/_home-page.scss */
-.sponsors-details ul {
-  list-style: none;
+.sponsors-details a {
+  display: inline-block;
+  height: 250px;
 }
 /* line 293, ../../sass/home/_home-page.scss */
-.sponsors-details ul li {
-  width: 75%;
+.sponsors-details a img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-height: 150px;
+  width: auto;
+  max-width: 100%;
+  left: 0;
+  right: 0;
 }
-/* line 297, ../../sass/home/_home-page.scss */
+/* line 305, ../../sass/home/_home-page.scss */
 .sponsors-details .owl-buttons {
   display: block;
   text-align: center;
   margin-top: 1em;
 }
-/* line 301, ../../sass/home/_home-page.scss */
+/* line 309, ../../sass/home/_home-page.scss */
 .sponsors-details .owl-buttons .owl-prev, .sponsors-details .owl-buttons .owl-next {
   color: black;
   background: #1C8302;
@@ -9281,161 +9290,149 @@ blockquote {
   display: inline-block;
   color: #fff;
 }
-/* line 309, ../../sass/home/_home-page.scss */
+/* line 317, ../../sass/home/_home-page.scss */
 .sponsors-details .owl-buttons .owl-prev:hover, .sponsors-details .owl-buttons .owl-next:hover {
   background: #22A700;
 }
-/* line 313, ../../sass/home/_home-page.scss */
+/* line 321, ../../sass/home/_home-page.scss */
 .sponsors-details .owl-buttons .owl-prev {
   margin-right: 1em;
 }
 
-/* line 321, ../../sass/home/_home-page.scss */
+/* line 329, ../../sass/home/_home-page.scss */
 .footer-background {
   color: #000;
 }
 
-/* line 327, ../../sass/home/_home-page.scss */
+/* line 335, ../../sass/home/_home-page.scss */
 .footer-content ul {
   list-style: none;
   padding: 25px 0;
   margin: 0;
 }
-/* line 333, ../../sass/home/_home-page.scss */
+/* line 341, ../../sass/home/_home-page.scss */
 .footer-content li {
   margin: 0 2px;
   display: inline-block;
 }
-/* line 337, ../../sass/home/_home-page.scss */
+/* line 345, ../../sass/home/_home-page.scss */
 .footer-content li + li {
   border-left: 1px solid #000;
   padding-left: 6px;
 }
-/* line 343, ../../sass/home/_home-page.scss */
+/* line 351, ../../sass/home/_home-page.scss */
 .footer-content i {
   font-size: 20px;
   padding: 0 5px;
 }
 
-/* line 350, ../../sass/home/_home-page.scss */
+/* line 358, ../../sass/home/_home-page.scss */
 .social-links {
   float: right;
 }
 
-/* line 354, ../../sass/home/_home-page.scss */
+/* line 362, ../../sass/home/_home-page.scss */
 .created-by {
   background: #000;
   padding: 10px;
   border-top: 4px solid #1C8302;
   font-family: helvetica sans-serif;
 }
-/* line 360, ../../sass/home/_home-page.scss */
+/* line 368, ../../sass/home/_home-page.scss */
 .created-by img {
   height: auto;
   width: 175px;
 }
-/* line 365, ../../sass/home/_home-page.scss */
+/* line 373, ../../sass/home/_home-page.scss */
 .created-by a {
   text-transform: uppercase;
   display: inline-block;
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 377, ../../sass/home/_home-page.scss */
+  /* line 385, ../../sass/home/_home-page.scss */
   .mission-statement h1 {
     font-size: 30px;
   }
 
-  /* line 383, ../../sass/home/_home-page.scss */
+  /* line 391, ../../sass/home/_home-page.scss */
   .event-section p {
     font-size: 1em;
   }
 }
 @media screen and (max-width: 991px) {
-  /* line 391, ../../sass/home/_home-page.scss */
+  /* line 399, ../../sass/home/_home-page.scss */
   .event-section span {
     font-size: .8em;
   }
-  /* line 394, ../../sass/home/_home-page.scss */
+  /* line 402, ../../sass/home/_home-page.scss */
   .event-section .coming-soon {
     font-size: .8em;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 402, ../../sass/home/_home-page.scss */
+  /* line 410, ../../sass/home/_home-page.scss */
   .footer-content ul {
     text-align: center;
   }
-  /* line 405, ../../sass/home/_home-page.scss */
+  /* line 413, ../../sass/home/_home-page.scss */
   .footer-content .social-links {
     float: none;
   }
 
-  /* line 409, ../../sass/home/_home-page.scss */
+  /* line 417, ../../sass/home/_home-page.scss */
   .created-by {
     text-align: center;
   }
 
-  /* line 414, ../../sass/home/_home-page.scss */
+  /* line 422, ../../sass/home/_home-page.scss */
   .mission-statement h1 {
     font-size: 20px;
     text-align: center;
   }
 }
 @media screen and (max-width: 421px) {
-  /* line 425, ../../sass/home/_home-page.scss */
+  /* line 433, ../../sass/home/_home-page.scss */
   .event-section li {
     height: 170px;
   }
 }
 @media screen and (max-width: 373px) {
-  /* line 440, ../../sass/home/_home-page.scss */
+  /* line 448, ../../sass/home/_home-page.scss */
   .event-section .coming-soon {
     font-size: .8em;
   }
 }
 @media screen and (max-width: 355px) {
-  /* line 451, ../../sass/home/_home-page.scss */
+  /* line 459, ../../sass/home/_home-page.scss */
   .event-section img {
     width: 111px;
   }
-  /* line 454, ../../sass/home/_home-page.scss */
+  /* line 462, ../../sass/home/_home-page.scss */
   .event-section span {
     font-size: .9em;
   }
-  /* line 457, ../../sass/home/_home-page.scss */
+  /* line 465, ../../sass/home/_home-page.scss */
   .event-section p {
     font-size: 1em;
   }
 }
 @media screen and (max-width: 336px) {
-  /* line 468, ../../sass/home/_home-page.scss */
+  /* line 476, ../../sass/home/_home-page.scss */
   .event-section span {
     font-size: .8em;
   }
-  /* line 471, ../../sass/home/_home-page.scss */
+  /* line 479, ../../sass/home/_home-page.scss */
   .event-section .coming-soon {
     font-size: .8em;
   }
 }
 @media screen and (max-width: 320px) {
-  /* line 479, ../../sass/home/_home-page.scss */
+  /* line 487, ../../sass/home/_home-page.scss */
   .event-section.closed {
     width: 100%;
   }
 }
-/* line 489, ../../sass/home/_home-page.scss */
-#owl-demo .item {
-  margin: 3px;
-}
-
-/* line 492, ../../sass/home/_home-page.scss */
-#owl-demo .item img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 /* line 1, ../../sass/content/_content-header.scss */
 .title-section {
   background: #313233;

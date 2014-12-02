@@ -33,14 +33,14 @@
     position: relative;
     margin-bottom: 0;
   }
-
-  img{
+  img {
     width: 111px;
     position: absolute;
     left: 71%;
     color: $primary;
   }
 }
+
 
 .event-section{
   background-color: #fff;
@@ -287,11 +287,19 @@ a{
 
 }
 .sponsors-details{
-  ul{
-    list-style: none;
-
-    li{
-      width: 75%;
+  a{
+    display: inline-block;
+    height: 250px;
+    img{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      max-height: 150px;
+      width: auto;
+      max-width: 100%;
+      left: 0;
+      right: 0;
     }
   }
   .owl-buttons{
@@ -485,15 +493,6 @@ a{
 
 
 
-
-#owl-demo .item{
-  margin: 3px;
-}
-#owl-demo .item img{
-  display: block;
-  width: 100%;
-  height: auto;
-}
 
 
 
